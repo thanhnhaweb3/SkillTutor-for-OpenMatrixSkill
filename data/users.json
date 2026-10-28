@@ -1,0 +1,166 @@
+{
+  "users": [
+    {
+      "id": "user-demo",
+      "email": "jane@ctw.edu.vn",
+      "name": "Jane Doe",
+      "role": "learner",
+      "avatarInitials": "JD",
+      "primaryAdapter": "local",
+      "primarySubject": "local:jane@ctw.edu.vn",
+      "identities": [],
+      "createdAt": "2026-07-07T02:59:40.272Z",
+      "updatedAt": "2026-07-07T04:09:57.797Z",
+      "password": "password123"
+    },
+    {
+      "id": "user-1cbfc131",
+      "email": "thanhnhaweb3@gmail.com",
+      "name": "thanhnhaweb3",
+      "role": "learner",
+      "avatarInitials": "TH",
+      "primaryAdapter": "cognito",
+      "primarySubject": "84483438-6041-709a-fdcc-bab2f458abf7",
+      "identities": [
+        {
+          "provider": "metamask",
+          "subject": "0x777ad5ad839f99f832d7e27b34db2962396abc44",
+          "displayHandle": "0x777ad5ad839f99f832d7e27b34db2962396abc44",
+          "displayName": "MetaMask Wallet",
+          "ethAddress": "0x777ad5ad839f99f832d7e27b34db2962396abc44",
+          "linkedAt": "2026-07-07T11:47:25.492Z",
+          "scopes": [
+            "eth_accounts"
+          ]
+        },
+        {
+          "provider": "opencampus",
+          "subject": "ocid:jane.doe",
+          "displayHandle": "jane.doe@edu.ocid",
+          "displayName": "Jane Doe",
+          "ethAddress": "0x7A8f3C1E4B9d2A6F0c3E2D1b9A8C7E6d5F4a3210",
+          "linkedAt": "2026-07-07T12:11:18.973Z",
+          "scopes": [
+            "openid",
+            "profile",
+            "edu_credentials"
+          ]
+        },
+        {
+          "provider": "github",
+          "subject": "github:thanhnhaweb3",
+          "displayHandle": "thanhnhaweb3",
+          "displayName": "thanhnhaweb3",
+          "linkedAt": "2026-07-08T02:02:29.398Z",
+          "scopes": [
+            "manual_profile"
+          ]
+        },
+        {
+          "provider": "google",
+          "subject": "google:thanhnhaweb3",
+          "displayHandle": "thanhnhaweb3",
+          "displayName": "thanhnhaweb3",
+          "linkedAt": "2026-07-08T02:02:34.074Z",
+          "scopes": [
+            "manual_profile"
+          ]
+        },
+        {
+          "provider": "x",
+          "subject": "x:thanhnhaweb3",
+          "displayHandle": "thanhnhaweb3",
+          "displayName": "thanhnhaweb3",
+          "linkedAt": "2026-07-08T02:02:40.322Z",
+          "scopes": [
+            "manual_profile"
+          ]
+        },
+        {
+          "provider": "linkedin",
+          "subject": "linkedin:thanhnhaweb3",
+          "displayHandle": "thanhnhaweb3",
+          "displayName": "thanhnhaweb3",
+          "linkedAt": "2026-07-08T02:02:44.797Z",
+          "scopes": [
+            "manual_profile"
+          ]
+        }
+      ],
+      "createdAt": "2026-07-07T09:38:53.902Z",
+      "updatedAt": "2026-07-08T02:02:44.797Z",
+      "evmAddress": "0x777ad5ad839f99f832d7e27b34db2962396abc44",
+      "metamaskWalletId": "0x777ad5ad839f99f832d7e27b34db2962396abc44",
+      "ocid": "jane.doe@edu.ocid",
+      "ethAddress": "0x7A8f3C1E4B9d2A6F0c3E2D1b9A8C7E6d5F4a3210",
+      "githubLogin": "thanhnhaweb3"
+    },
+    {
+      "id": "user-4e468662",
+      "email": "lieulieunft@gmail.com",
+      "name": "lieulieunft",
+      "role": "learner",
+      "avatarInitials": "LI",
+      "primaryAdapter": "cognito",
+      "primarySubject": "0448a428-e051-701a-2db3-5c32ee957d54",
+      "identities": [
+        {
+          "provider": "x",
+          "subject": "x:lieulieunft",
+          "displayHandle": "lieulieunft",
+          "displayName": "lieulieunft",
+          "linkedAt": "2026-07-09T13:34:11.654Z",
+          "scopes": [
+            "manual_profile"
+          ]
+        },
+        {
+          "provider": "metamask",
+          "subject": "0x8830a9594c26993ef2ece3c755c5b113dbb30dd7",
+          "displayHandle": "0x8830a9594c26993ef2ece3c755c5b113dbb30dd7",
+          "displayName": "MetaMask Wallet",
+          "ethAddress": "0x8830a9594c26993ef2ece3c755c5b113dbb30dd7",
+          "linkedAt": "2026-07-09T13:34:38.665Z",
+          "scopes": [
+            "eth_accounts"
+          ]
+        },
+        {
+          "provider": "github",
+          "subject": "github:lieulieunft",
+          "displayHandle": "lieulieunft",
+          "displayName": "lieulieunft",
+          "linkedAt": "2026-07-09T14:03:53.865Z",
+          "scopes": [
+            "manual_profile"
+          ]
+        },
+        {
+          "provider": "google",
+          "subject": "google:lieulieunft",
+          "displayHandle": "lieulieunft",
+          "displayName": "lieulieunft",
+          "linkedAt": "2026-07-09T14:03:58.890Z",
+          "scopes": [
+            "manual_profile"
+          ]
+        },
+        {
+          "provider": "linkedin",
+          "subject": "linkedin:lieulieunft",
+          "displayHandle": "lieulieunft",
+          "displayName": "lieulieunft",
+          "linkedAt": "2026-07-09T14:04:03.822Z",
+          "scopes": [
+            "manual_profile"
+          ]
+        }
+      ],
+      "createdAt": "2026-07-09T13:33:07.597Z",
+      "updatedAt": "2026-07-09T14:04:03.822Z",
+      "evmAddress": "0x8830a9594c26993ef2ece3c755c5b113dbb30dd7",
+      "metamaskWalletId": "0x8830a9594c26993ef2ece3c755c5b113dbb30dd7",
+      "githubLogin": "lieulieunft"
+    }
+  ]
+}
