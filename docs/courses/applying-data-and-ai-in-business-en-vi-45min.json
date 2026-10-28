@@ -1,0 +1,178 @@
+{
+  "source": "Original OLYM3 course design, version 1.0, 29 October 2026. JSON structure follows the user-supplied template; all instructional content is newly authored. All business data and return estimates are synthetic teaching examples. English and Vietnamese are paired inside existing text fields to preserve template field types. / Thiết kế khóa học gốc OLYM3, phiên bản 1.0, ngày 29/10/2026. Cấu trúc JSON theo mẫu người dùng cung cấp; nội dung giảng dạy được biên soạn mới. Mọi dữ liệu kinh doanh và ước tính lợi ích đều là ví dụ mô phỏng. Tiếng Anh và tiếng Việt được đặt cùng trường văn bản sẵn có để giữ kiểu dữ liệu của mẫu.",
+  "framework": {
+    "name": "Business Data and AI Foundations / Nền tảng Data và AI trong kinh doanh",
+    "description": "Four competency groups for a 45-minute introductory course, assessed through a bilingual action card. Target: guided application, not independent AI deployment. / Bốn nhóm năng lực cho khóa nhập môn 45 phút, đánh giá qua thẻ hành động song ngữ. Mục tiêu là áp dụng có hướng dẫn, không phải triển khai AI độc lập.",
+    "proficiencyLevels": [
+      {
+        "code": "L1",
+        "rank": 1,
+        "name": "Recognize / Nhận biết",
+        "description": "Explain core concepts and identify limitations. / Giải thích khái niệm và nhận diện giới hạn."
+      },
+      {
+        "code": "L2",
+        "rank": 2,
+        "name": "Apply with guidance / Áp dụng có hướng dẫn",
+        "description": "Perform a bounded task using supplied data and verify the result. / Thực hiện nhiệm vụ giới hạn bằng dữ liệu cung cấp và kiểm chứng kết quả."
+      }
+    ]
+  },
+  "skills": [
+    {
+      "code": "DAIB-PROBLEM",
+      "name": "Frame a business problem / Xác định bài toán kinh doanh",
+      "description": "Connect a decision to a measurable KPI. / Gắn quyết định với KPI đo được.",
+      "outcomes": [
+        "Write one decision, KPI and hypothesis. / Viết một quyết định, KPI và giả thuyết."
+      ],
+      "tags": [
+        "business / kinh doanh",
+        "data / dữ liệu",
+        "AI / trí tuệ nhân tạo"
+      ]
+    },
+    {
+      "code": "DAIB-DATA",
+      "name": "Read and validate business data / Đọc và kiểm tra dữ liệu kinh doanh",
+      "description": "Calculate conversion and identify data limitations. / Tính tỷ lệ chuyển đổi và nhận diện giới hạn dữ liệu.",
+      "outcomes": [
+        "Identify a dataset grain and three quality checks. / Xác định đơn vị bản ghi và ba kiểm tra chất lượng.",
+        "Calculate weighted conversion and avoid a causal claim. / Tính chuyển đổi có trọng số và tránh kết luận nhân quả."
+      ],
+      "tags": [
+        "business / kinh doanh",
+        "data / dữ liệu",
+        "AI / trí tuệ nhân tạo"
+      ]
+    },
+    {
+      "code": "DAIB-AI",
+      "name": "Use AI with evidence / Sử dụng AI có căn cứ",
+      "description": "Select an AI use case and write a verifiable prompt. / Chọn trường hợp ứng dụng AI và viết prompt có thể kiểm chứng.",
+      "outcomes": [
+        "Match a task to analytics, predictive AI or generative AI. / Ghép nhiệm vụ với phân tích, AI dự đoán hoặc AI tạo sinh.",
+        "Write a prompt with context, evidence, constraints and output format. / Viết prompt có bối cảnh, bằng chứng, ràng buộc và định dạng đầu ra.",
+        "Correct an unsupported claim and define human review. / Sửa nhận định thiếu căn cứ và xác định bước người duyệt."
+      ],
+      "tags": [
+        "business / kinh doanh",
+        "data / dữ liệu",
+        "AI / trí tuệ nhân tạo"
+      ]
+    },
+    {
+      "code": "DAIB-PILOT",
+      "name": "Design a responsible pilot / Thiết kế thử nghiệm có trách nhiệm",
+      "description": "Estimate value and define a controlled pilot. / Ước tính giá trị và xác định thử nghiệm có kiểm soát.",
+      "outcomes": [
+        "Estimate net monthly value and payback using explicit assumptions. / Ước tính giá trị ròng tháng và hoàn vốn bằng giả định rõ ràng.",
+        "Define a pilot with a baseline, quality gate and stop rule. / Xác định thử nghiệm có đường cơ sở, ngưỡng chất lượng và điều kiện dừng.",
+        "Submit a bilingual action card with correct evidence and controls. / Nộp thẻ hành động song ngữ có bằng chứng và kiểm soát đúng."
+      ],
+      "tags": [
+        "business / kinh doanh",
+        "data / dữ liệu",
+        "AI / trí tuệ nhân tạo"
+      ]
+    }
+  ],
+  "course": {
+    "code": "DATA-AI-BIZ-45-ENVI",
+    "title": "Applying Data and AI in business / ứng dụng Data và AI trong kinh doanh",
+    "description": "A fully bilingual introductory course for business owners, managers and staff in sales, marketing, service and operations. No coding or AI experience required; basic arithmetic is helpful. Total guided time: 45 minutes, including reading both languages, practice and assessment; 3 modules × 3 lessons × 5 minutes. Lessons 1–8: 2 minutes learning, 2 practice, 1 self-check each; lesson 9: 3 minutes assembly and 2 assessment. Use paper or a spreadsheet; an approved AI tool is optional and no paid account is required. Learners frame a business decision, validate synthetic data, calculate KPIs, write and verify prompts, estimate value and propose a controlled pilot. Reuse short exercise outputs to build the final bilingual action card. Completion requires at least 9/12 under lesson 9, full marks on KPI and privacy/review, and both language versions. The suggested two-week workplace pilot is outside this 45-minute course. Cohort date is a placeholder for import and may be edited. / Khóa nhập môn song ngữ đầy đủ dành cho chủ doanh nghiệp, quản lý và nhân sự bán hàng, marketing, dịch vụ, vận hành. Không cần lập trình hoặc kinh nghiệm AI; biết tính toán cơ bản là hữu ích. Tổng thời gian học có hướng dẫn: 45 phút, gồm đọc cả hai ngôn ngữ, thực hành và đánh giá; 3 mô-đun × 3 bài × 5 phút. Bài 1–8: mỗi bài 2 phút học, 2 phút thực hành, 1 phút tự kiểm tra; bài 9: 3 phút tổng hợp và 2 phút đánh giá. Dùng giấy hoặc bảng tính; công cụ AI được phép là tùy chọn, không cần tài khoản trả phí. Người học xác định quyết định kinh doanh, kiểm tra dữ liệu mô phỏng, tính KPI, viết và kiểm chứng prompt, ước tính giá trị và đề xuất thử nghiệm có kiểm soát. Tích lũy đầu ra bài tập ngắn thành thẻ hành động song ngữ cuối khóa. Hoàn thành khi đạt ít nhất 9/12 theo bài 9, điểm tối đa ở KPI và riêng tư/người duyệt, có đủ hai bản ngôn ngữ. Thử nghiệm tại nơi làm việc hai tuần nằm ngoài khóa 45 phút. Ngày lớp là mốc tạm phục vụ nhập liệu, có thể chỉnh sửa.",
+    "modules": [
+      {
+        "title": "Business decisions and data / Quyết định kinh doanh và dữ liệu",
+        "lessons": [
+          {
+            "title": "From business goals to decisions / Từ mục tiêu kinh doanh đến quyết định",
+            "minutes": 5,
+            "skill": "DAIB-PROBLEM",
+            "level": "L2",
+            "outcome": "Write one decision, KPI and hypothesis. / Viết một quyết định, KPI và giả thuyết.",
+            "summary": "ENGLISH\nTiming: learn 2 min; practice 2 min; self-check 1 min. Start with a decision, then identify the data and tools needed. Data are recorded observations; analytics examines them; AI generates predictions, classifications or content. AI output is a proposal that needs validation. A dashboard may answer a question without AI.\nCase: Lotus Shop is a fictional retailer. Its team wants more completed orders from website sessions. Decision: which channel should receive a small landing-page improvement test? Primary KPI: completed orders / sessions. Guardrails: cancellations and contribution margin per order. Hypothesis: improving the selected page may raise conversion; this is unproven.\nPractice: write “We need to decide ___ for ___; success means ___, without worsening ___.” Choose a process from sales, marketing, customer service or operations. Keep one decision within scope.\nSelf-check: Is “deploy an AI chatbot” a business outcome? Answer: no; it is a solution idea. “Reduce response time while keeping answer accuracy” describes a measurable outcome.\n\nTIẾNG VIỆT\nPhân bổ: học 2 phút; thực hành 2 phút; tự kiểm tra 1 phút. Bắt đầu từ quyết định, sau đó xác định dữ liệu và công cụ cần dùng. Dữ liệu là những quan sát được ghi lại; phân tích giúp xem xét dữ liệu; AI tạo dự đoán, phân loại hoặc nội dung. Đầu ra AI là đề xuất cần kiểm chứng. Một bảng theo dõi có thể trả lời câu hỏi mà không cần AI.\nTình huống: Lotus Shop là nhà bán lẻ giả lập. Nhóm muốn tăng số đơn hoàn tất từ các phiên truy cập website. Quyết định: kênh nào nên được chọn để thử cải thiện trang đích ở quy mô nhỏ? KPI chính: đơn hoàn tất / phiên truy cập. Chỉ số bảo vệ: hủy đơn và lãi đóng góp mỗi đơn. Giả thuyết: cải thiện trang được chọn có thể tăng chuyển đổi; điều này chưa được chứng minh.\nThực hành: viết “Chúng ta cần quyết định ___ cho ___; thành công là ___, đồng thời không làm xấu đi ___.” Chọn quy trình bán hàng, marketing, chăm sóc khách hàng hoặc vận hành. Chỉ giữ một quyết định trong phạm vi.\nTự kiểm tra: “Triển khai chatbot AI” có phải kết quả kinh doanh? Đáp án: không; đó là ý tưởng giải pháp. “Giảm thời gian phản hồi đồng thời giữ độ chính xác” là kết quả đo được."
+          },
+          {
+            "title": "Define usable data / Xác định dữ liệu có thể sử dụng",
+            "minutes": 5,
+            "skill": "DAIB-DATA",
+            "level": "L2",
+            "outcome": "Identify a dataset grain and three quality checks. / Xác định đơn vị bản ghi và ba kiểm tra chất lượng.",
+            "summary": "ENGLISH\nTiming: learn 2 min; practice 2 min; self-check 1 min. A dataset needs a grain: what one row represents. Lotus Shop uses one row per acquisition channel for the same fictional week. Each session is assigned to one channel; each completed order is counted once under that same attribution rule. Definitions and time windows must match.\nDataset: Search: 1,000 sessions, 50 completed orders, advertising spend VND 2,000,000; Social: 2,000 sessions, 40 completed orders, spend VND 3,000,000; Email: 500 sessions, 40 completed orders, spend VND 500,000. All figures are synthetic. Spend covers advertising only, not total business costs.\nBefore analysis, check missing values, duplicates and consistent definitions. A missing spend value is unknown, not zero. Check whether cancelled orders were excluded consistently. The table has no margins, device breakdown or prior-week comparison.\nPractice: write the grain, time window and three checks you would run. Self-check: May two duplicated Search rows be summed? Answer: only if they represent distinct, non-overlapping records; otherwise remove or resolve the duplicate first.\n\nTIẾNG VIỆT\nPhân bổ: học 2 phút; thực hành 2 phút; tự kiểm tra 1 phút. Bộ dữ liệu cần có đơn vị bản ghi: một dòng đại diện cho điều gì. Lotus Shop dùng một dòng cho mỗi kênh thu hút khách trong cùng một tuần giả lập. Mỗi phiên được gán cho một kênh; mỗi đơn hoàn tất chỉ được tính một lần theo cùng quy tắc phân bổ. Định nghĩa và khoảng thời gian phải thống nhất.\nDữ liệu: Tìm kiếm: 1.000 phiên, 50 đơn hoàn tất, chi quảng cáo 2.000.000 VND; Mạng xã hội: 2.000 phiên, 40 đơn hoàn tất, chi 3.000.000 VND; Email: 500 phiên, 40 đơn hoàn tất, chi 500.000 VND. Tất cả là số liệu mô phỏng. Chi tiêu chỉ gồm quảng cáo, không phải toàn bộ chi phí kinh doanh.\nTrước khi phân tích, kiểm tra giá trị thiếu, trùng lặp và tính nhất quán của định nghĩa. Chi phí bị thiếu là chưa biết, không phải bằng 0. Kiểm tra việc loại đơn hủy có nhất quán không. Bảng chưa có biên lợi nhuận, phân nhóm thiết bị hoặc so sánh tuần trước.\nThực hành: ghi đơn vị bản ghi, khoảng thời gian và ba kiểm tra sẽ thực hiện. Tự kiểm tra: có thể cộng hai dòng Tìm kiếm trùng nhau không? Đáp án: chỉ khi chúng là các bản ghi khác nhau, không chồng lặp; nếu không, cần loại hoặc xử lý trùng trước."
+          },
+          {
+            "title": "Calculate and interpret KPIs / Tính và diễn giải KPI",
+            "minutes": 5,
+            "skill": "DAIB-DATA",
+            "level": "L2",
+            "outcome": "Calculate weighted conversion and avoid a causal claim. / Tính chuyển đổi có trọng số và tránh kết luận nhân quả.",
+            "summary": "ENGLISH\nTiming: learn 2 min; practice 2 min; self-check 1 min. Conversion = completed orders / sessions × 100%. Advertising cost per completed order = advertising spend / completed orders. This is not customer acquisition cost because new customers are not identified.\nUsing lesson 2: Search conversion is 5%, advertising cost/order VND 40,000; Social 2%, VND 75,000; Email 8%, VND 12,500. Overall conversion = (50+40+40)/(1,000+2,000+500) = 130/3,500 = 3.71%, rounded to two decimals. Overall advertising cost/order = 5,500,000/130 ≈ VND 42,308. Do not average the three channel percentages equally.\nEmail has the highest observed conversion, but this does not prove email causes more sales. Existing customers, campaign selection and traffic quality may differ. Low advertising cost alone does not establish profitability.\nPractice: calculate the overall conversion before checking the answer; write one observation and one limitation. Self-check: should all budget move to Email? Answer: no; the table does not show incremental impact, scaling capacity or contribution margins.\n\nTIẾNG VIỆT\nPhân bổ: học 2 phút; thực hành 2 phút; tự kiểm tra 1 phút. Chuyển đổi = đơn hoàn tất / phiên truy cập × 100%. Chi quảng cáo mỗi đơn hoàn tất = chi quảng cáo / đơn hoàn tất. Đây không phải chi phí thu hút khách hàng mới vì chưa xác định được khách mới.\nTừ bài 2: Tìm kiếm chuyển đổi 5%, chi quảng cáo/đơn 40.000 VND; Mạng xã hội 2%, 75.000 VND; Email 8%, 12.500 VND. Chuyển đổi chung = (50+40+40)/(1.000+2.000+500) = 130/3.500 = 3,71%, làm tròn hai chữ số thập phân. Chi quảng cáo/đơn chung = 5.500.000/130 ≈ 42.308 VND. Không lấy trung bình cộng ba tỷ lệ của các kênh.\nEmail có chuyển đổi quan sát cao nhất, nhưng chưa chứng minh email gây ra nhiều doanh số hơn. Khách cũ, cách chọn chiến dịch và chất lượng truy cập có thể khác nhau. Chi quảng cáo thấp chưa đủ chứng minh có lợi nhuận.\nThực hành: tự tính chuyển đổi chung trước khi xem đáp án; viết một quan sát và một giới hạn. Tự kiểm tra: có nên chuyển toàn bộ ngân sách sang Email? Đáp án: không; bảng chưa cho biết tác động tăng thêm, khả năng mở rộng hoặc lãi đóng góp."
+          }
+        ]
+      },
+      {
+        "title": "Apply and verify AI / Ứng dụng và kiểm chứng AI",
+        "lessons": [
+          {
+            "title": "Choose an appropriate AI use case / Chọn ứng dụng AI phù hợp",
+            "minutes": 5,
+            "skill": "DAIB-AI",
+            "level": "L2",
+            "outcome": "Match a task to analytics, predictive AI or generative AI. / Ghép nhiệm vụ với phân tích, AI dự đoán hoặc AI tạo sinh.",
+            "summary": "ENGLISH\nTiming: learn 2 min; practice 2 min; self-check 1 min. Use a spreadsheet or dashboard for repeatable KPI calculations. Predictive AI estimates an outcome from historical patterns, such as demand; it needs suitable historical data and evaluation on unseen examples. Generative AI drafts or summarizes content; it can invent details. Automation executes defined steps and does not always require AI.\nBusiness examples: sales—draft follow-up messages for review; marketing—summarize campaign evidence; service—draft answers from approved policies; operations—forecast demand with sufficient history. Select a use case by business impact, data readiness, implementation effort and failure risk.\nFor Lotus Shop, start with an AI-assisted weekly campaign brief using aggregated data, verified calculations and human approval. Three channel rows from one week cannot support a reliable demand forecast. Avoid autonomous budget changes in this introductory exercise.\nPractice: choose one task, name the tool category and explain one reason. Self-check: what should compute the conversion totals? Answer: a checked formula or reproducible calculation; AI may explain the result after verification.\n\nTIẾNG VIỆT\nPhân bổ: học 2 phút; thực hành 2 phút; tự kiểm tra 1 phút. Dùng bảng tính hoặc bảng theo dõi cho phép tính KPI lặp lại. AI dự đoán ước lượng kết quả từ mẫu hình quá khứ, chẳng hạn nhu cầu; cần lịch sử dữ liệu phù hợp và đánh giá trên ví dụ chưa dùng để xây mô hình. AI tạo sinh soạn hoặc tóm tắt nội dung; nó có thể bịa chi tiết. Tự động hóa thực thi các bước đã định và không phải lúc nào cũng cần AI.\nVí dụ: bán hàng—soạn thư chăm sóc để người phụ trách duyệt; marketing—tóm tắt bằng chứng chiến dịch; dịch vụ—soạn trả lời từ chính sách đã duyệt; vận hành—dự báo nhu cầu khi có đủ lịch sử. Chọn ứng dụng theo tác động kinh doanh, độ sẵn sàng dữ liệu, công sức triển khai và rủi ro sai sót.\nVới Lotus Shop, bắt đầu bằng bản tóm tắt chiến dịch hằng tuần có AI hỗ trợ, dùng dữ liệu tổng hợp, phép tính đã kiểm tra và người duyệt. Ba dòng kênh của một tuần không đủ hỗ trợ dự báo nhu cầu đáng tin cậy. Không tự động đổi ngân sách trong bài nhập môn này.\nThực hành: chọn một nhiệm vụ, nêu nhóm công cụ và giải thích một lý do. Tự kiểm tra: công cụ nào nên tính chuyển đổi chung? Đáp án: công thức đã kiểm tra hoặc phép tính tái lập được; AI có thể diễn giải sau khi kết quả được xác minh."
+          },
+          {
+            "title": "Write a grounded business prompt / Viết prompt kinh doanh có căn cứ",
+            "minutes": 5,
+            "skill": "DAIB-AI",
+            "level": "L2",
+            "outcome": "Write a prompt with context, evidence, constraints and output format. / Viết prompt có bối cảnh, bằng chứng, ràng buộc và định dạng đầu ra.",
+            "summary": "ENGLISH\nTiming: learn 2 min; practice 2 min; self-check 1 min. A useful prompt states the task, context, supplied evidence, limits and requested output. Keep observations separate from hypotheses and proposed actions.\nCopyable prompt: “You are a business analyst for fictional Lotus Shop. Using only this synthetic weekly dataset—Search: 1,000 sessions, 50 completed orders, advertising spend VND 2,000,000; Social: 2,000 sessions, 40 orders, spend VND 3,000,000; Email: 500 sessions, 40 orders, spend VND 500,000—prepare a short brief. Show formulas for conversion and advertising cost per completed order, plus weighted totals. Return a table, two observations, two limitations and one small test with a KPI and guardrail. Do not infer causality, invent margins or recommend a full budget reallocation. Label unknowns. Provide equivalent English and Vietnamese versions.”\nPractice: adapt this prompt to your chosen task, keeping the constraints. If an approved AI tool is available, run it; otherwise outline the expected output on paper. No account or paid tool is required.\nSelf-check: does “Act as an expert and improve sales” specify sufficient evidence? Answer: no; add the dataset, decision, constraints and deliverable.\n\nTIẾNG VIỆT\nPhân bổ: học 2 phút; thực hành 2 phút; tự kiểm tra 1 phút. Prompt hữu ích nêu nhiệm vụ, bối cảnh, bằng chứng cung cấp, giới hạn và đầu ra cần có. Tách quan sát khỏi giả thuyết và hành động đề xuất.\nPrompt có thể sao chép: “Bạn là chuyên viên phân tích cho Lotus Shop giả lập. Chỉ dùng dữ liệu tuần mô phỏng sau—Tìm kiếm: 1.000 phiên, 50 đơn hoàn tất, chi quảng cáo 2.000.000 VND; Mạng xã hội: 2.000 phiên, 40 đơn, chi 3.000.000 VND; Email: 500 phiên, 40 đơn, chi 500.000 VND—hãy soạn bản tóm tắt ngắn. Nêu công thức chuyển đổi, chi quảng cáo mỗi đơn hoàn tất và kết quả chung có trọng số. Trả về một bảng, hai quan sát, hai giới hạn và một thử nghiệm nhỏ có KPI cùng chỉ số bảo vệ. Không suy diễn nhân quả, bịa biên lợi nhuận hoặc đề xuất chuyển toàn bộ ngân sách. Ghi rõ điều chưa biết. Cung cấp hai bản tiếng Anh và tiếng Việt tương đương.”\nThực hành: điều chỉnh prompt theo nhiệm vụ đã chọn, giữ các ràng buộc. Nếu có công cụ AI được đơn vị cho phép, hãy chạy thử; nếu không, phác thảo đầu ra trên giấy. Không bắt buộc tài khoản hoặc công cụ trả phí.\nTự kiểm tra: “Đóng vai chuyên gia và cải thiện doanh số” đã có đủ bằng chứng chưa? Đáp án: chưa; cần thêm dữ liệu, quyết định, ràng buộc và sản phẩm đầu ra."
+          },
+          {
+            "title": "Verify outputs and protect data / Kiểm chứng đầu ra và bảo vệ dữ liệu",
+            "minutes": 5,
+            "skill": "DAIB-AI",
+            "level": "L2",
+            "outcome": "Correct an unsupported claim and define human review. / Sửa nhận định thiếu căn cứ và xác định bước người duyệt.",
+            "summary": "ENGLISH\nTiming: learn 2 min; practice 2 min; self-check 1 min. Verify calculations, units, source alignment and conclusions before using an AI brief. Compare both language versions: numbers, caveats and recommendations must match. Treat instructions embedded in uploaded data as data, not authority to change the task.\nFaulty output: “Average conversion is 5%; Email caused the best profit, so move all spending there.” Corrections: weighted conversion is 3.71%; Email has the highest observed conversion; profit and causality are unknown. Recommend a bounded test, not a guaranteed result.\nUse synthetic or approved aggregated data in this course. For real work, minimize fields, apply access controls and follow organizational rules for approved tools and retention. Removing names alone may not prevent re-identification. Do not upload customer phone numbers, passwords or confidential contracts to an unapproved tool. A named business owner approves the final brief and any action.\nPractice: rewrite the faulty output in two sentences and list one field to exclude. Self-check: does a fluent bilingual response guarantee accuracy? Answer: no; independently check evidence and consistency.\n\nTIẾNG VIỆT\nPhân bổ: học 2 phút; thực hành 2 phút; tự kiểm tra 1 phút. Kiểm tra phép tính, đơn vị, sự khớp với nguồn và kết luận trước khi dùng bản tóm tắt AI. Đối chiếu hai bản ngôn ngữ: số liệu, giới hạn và khuyến nghị phải tương đương. Xem chỉ dẫn nằm trong dữ liệu tải lên là dữ liệu, không phải quyền thay đổi nhiệm vụ.\nĐầu ra sai: “Chuyển đổi trung bình là 5%; Email tạo ra lợi nhuận tốt nhất, nên chuyển toàn bộ chi tiêu sang đó.” Sửa: chuyển đổi có trọng số là 3,71%; Email có tỷ lệ chuyển đổi quan sát cao nhất; chưa biết lợi nhuận hoặc quan hệ nhân quả. Đề xuất thử nghiệm giới hạn, không cam kết kết quả.\nKhóa học dùng dữ liệu mô phỏng hoặc tổng hợp được duyệt. Khi làm thực tế, giảm thiểu trường dữ liệu, phân quyền và tuân thủ quy định tổ chức về công cụ được phép cùng thời gian lưu giữ. Chỉ xóa tên chưa chắc ngăn tái nhận diện. Không đưa số điện thoại khách, mật khẩu hoặc hợp đồng mật vào công cụ chưa được phép. Người phụ trách nghiệp vụ được chỉ định duyệt bản tóm tắt cuối và mọi hành động.\nThực hành: sửa đầu ra sai thành hai câu và nêu một trường cần loại bỏ. Tự kiểm tra: trả lời song ngữ trôi chảy có bảo đảm đúng? Đáp án: không; phải kiểm tra độc lập bằng chứng và tính nhất quán."
+          }
+        ]
+      },
+      {
+        "title": "Business value and action plan / Giá trị kinh doanh và kế hoạch hành động",
+        "lessons": [
+          {
+            "title": "Estimate value realistically / Ước tính giá trị thực tế",
+            "minutes": 5,
+            "skill": "DAIB-PILOT",
+            "level": "L2",
+            "outcome": "Estimate net monthly value and payback using explicit assumptions. / Ước tính giá trị ròng tháng và hoàn vốn bằng giả định rõ ràng.",
+            "summary": "ENGLISH\nTiming: learn 2 min; practice 2 min; self-check 1 min. Consider an AI-assisted reporting workflow separate from the campaign conversion test. Synthetic assumptions: 40 reports/month; 20 minutes saved per report before review; additional review takes 5 minutes/report; labor valuation VND 120,000/hour; recurring tool and maintenance costs VND 600,000/month; one-time setup VND 1,200,000.\nNet capacity released = 40 × (20−5)/60 = 10 hours/month. Capacity value = 10 × 120,000 = VND 1,200,000/month. Net monthly economic value = 1,200,000−600,000 = VND 600,000. Simple payback = 1,200,000/600,000 = 2 months, assuming these values hold. Time released is not automatically cash savings; explain how the team will use it.\nSensitivity: if pre-review savings fall to 10 minutes/report, net time = 3.33 hours, value ≈ VND 400,000 and net value ≈ −VND 200,000/month. There is no positive payback in that scenario.\nPractice: recalculate with 20 reports/month and the original timing. Answer: 5 hours, VND 600,000 capacity value, zero net monthly value; no finite payback. Self-check: are these promised returns? Answer: no; they are assumptions to validate.\n\nTIẾNG VIỆT\nPhân bổ: học 2 phút; thực hành 2 phút; tự kiểm tra 1 phút. Xem xét quy trình báo cáo có AI hỗ trợ, tách biệt với thử nghiệm chuyển đổi chiến dịch. Giả định mô phỏng: 40 báo cáo/tháng; tiết kiệm 20 phút mỗi báo cáo trước khi duyệt; duyệt bổ sung mất 5 phút/báo cáo; quy đổi giờ công 120.000 VND/giờ; công cụ và bảo trì định kỳ 600.000 VND/tháng; thiết lập một lần 1.200.000 VND.\nNăng lực ròng giải phóng = 40 × (20−5)/60 = 10 giờ/tháng. Giá trị năng lực = 10 × 120.000 = 1.200.000 VND/tháng. Giá trị kinh tế ròng tháng = 1.200.000−600.000 = 600.000 VND. Hoàn vốn đơn giản = 1.200.000/600.000 = 2 tháng, nếu giả định đúng. Thời gian giải phóng không tự trở thành tiền mặt tiết kiệm; cần giải thích nhóm sẽ sử dụng ra sao.\nĐộ nhạy: nếu tiết kiệm trước duyệt chỉ còn 10 phút/báo cáo, thời gian ròng = 3,33 giờ, giá trị ≈ 400.000 VND và giá trị ròng ≈ −200.000 VND/tháng. Kịch bản này không có hoàn vốn dương.\nThực hành: tính lại với 20 báo cáo/tháng và thời gian ban đầu. Đáp án: 5 giờ, giá trị năng lực 600.000 VND, giá trị ròng tháng bằng 0; không có thời gian hoàn vốn hữu hạn. Tự kiểm tra: đây có phải lợi ích cam kết? Đáp án: không; đó là giả định cần xác nhận."
+          },
+          {
+            "title": "Plan a controlled pilot / Lập thử nghiệm có kiểm soát",
+            "minutes": 5,
+            "skill": "DAIB-PILOT",
+            "level": "L2",
+            "outcome": "Define a pilot with a baseline, quality gate and stop rule. / Xác định thử nghiệm có đường cơ sở, ngưỡng chất lượng và điều kiện dừng.",
+            "summary": "ENGLISH\nTiming: learn 2 min; practice 2 min; self-check 1 min. Proposed follow-up after class: a two-week pilot of AI-assisted campaign briefs, not autonomous budget optimization. Owner: marketing lead. Inputs: approved aggregated campaign tables. Compare manual and AI-assisted briefs on the same 10 historical tables using a fixed rubric; alternate task order to reduce learning effects. Ten tables are an exploratory check, not statistical proof of long-term impact.\nRecord total production time including review, numerical accuracy, unsupported claims, reviewer corrections and tool cost. Proposed acceptance criteria: median total time at least 20% below the manual baseline; all published KPI numbers correct; zero unsupported claims in published briefs; reviewer approval for every brief; recurring cost within the approved budget. These are course design targets, not industry benchmarks. Pause publication if sensitive data is exposed or a material numerical error escapes review; correct it and investigate before resuming.\nPractice: write five lines: owner, baseline, primary KPI, quality gate, stop rule. Self-check: is frequent tool use enough to show business value? Answer: no; measure verified quality, time and costs. The two-week pilot happens after the 45-minute course and is not required to finish today.\n\nTIẾNG VIỆT\nPhân bổ: học 2 phút; thực hành 2 phút; tự kiểm tra 1 phút. Đề xuất sau giờ học: thử nghiệm hai tuần với bản tóm tắt chiến dịch có AI hỗ trợ, không tự động tối ưu ngân sách. Chủ trì: trưởng nhóm marketing. Đầu vào: bảng chiến dịch tổng hợp được duyệt. So sánh bản thủ công và bản có AI trên cùng 10 bảng lịch sử bằng thang chấm cố định; đảo thứ tự thực hiện để giảm hiệu ứng quen bài. Mười bảng chỉ là kiểm tra thăm dò, chưa phải bằng chứng thống kê về tác động dài hạn.\nGhi tổng thời gian gồm duyệt, độ chính xác số liệu, nhận định thiếu căn cứ, chỉnh sửa của người duyệt và chi phí công cụ. Tiêu chí nghiệm thu đề xuất: trung vị tổng thời gian giảm ít nhất 20% so với cách thủ công; mọi KPI công bố đều đúng; không có nhận định thiếu căn cứ trong bản công bố; mọi bản đều được người phụ trách duyệt; chi phí định kỳ trong ngân sách được duyệt. Đây là mục tiêu thiết kế bài học, không phải chuẩn ngành. Tạm dừng công bố nếu lộ dữ liệu nhạy cảm hoặc lỗi số liệu trọng yếu lọt qua duyệt; sửa và điều tra trước khi tiếp tục.\nThực hành: viết năm dòng: chủ trì, đường cơ sở, KPI chính, ngưỡng chất lượng, điều kiện dừng. Tự kiểm tra: dùng công cụ thường xuyên đã chứng minh giá trị kinh doanh chưa? Đáp án: chưa; cần đo chất lượng đã kiểm chứng, thời gian và chi phí. Thử nghiệm hai tuần diễn ra sau khóa 45 phút, không bắt buộc hoàn thành hôm nay."
+          },
+          {
+            "title": "Complete your business AI action card / Hoàn thành thẻ hành động Data và AI",
+            "minutes": 5,
+            "skill": "DAIB-PILOT",
+            "level": "L2",
+            "outcome": "Submit a bilingual action card with correct evidence and controls. / Nộp thẻ hành động song ngữ có bằng chứng và kiểm soát đúng.",
+            "summary": "ENGLISH\nTiming: assemble 3 min; assess 2 min. Reuse earlier answers; no new research is needed. Submit one short action card in both English and Vietnamese. Template: (1) decision and owner; (2) data source, grain and one limitation; (3) verified KPI and formula; (4) AI task and prompt constraints; (5) reviewer and excluded sensitive fields; (6) baseline, pilot target, costs and stop rule. Use the Lotus Shop case or a synthetic case of your own. Both versions must contain equivalent facts.\nReference card: Marketing lead decides whether to pilot AI-assisted weekly briefs. Use approved channel/week aggregates. Overall conversion is 130/3,500 = 3.71%; one week cannot prove causality. AI drafts observations and limitations from supplied data only; formulas are checked independently. The lead reviews every brief; customer identifiers are excluded. Compare 10 paired historical briefs over a proposed two-week pilot; target 20% lower median total time with correct published KPIs, no unsupported published claims and approved cost. Stop on sensitive-data exposure or material errors escaping review.\nAssessment: six criteria, 0–2 points each: clear decision; data definition and limitation; correct KPI; grounded AI prompt; privacy and human review; measurable pilot and value assumptions. Score 0 if absent/incorrect, 1 if partial, 2 if complete and consistent. Pass at 9/12 or more, with 2/2 on KPI and 2/2 on privacy/review, plus both language versions. Revise failed criteria before marking complete. This rubric supports self- or instructor review; the JSON does not implement automatic grading or certification.\n\nTIẾNG VIỆT\nPhân bổ: tổng hợp 3 phút; đánh giá 2 phút. Dùng lại câu trả lời trước, không cần nghiên cứu mới. Nộp một thẻ hành động ngắn bằng cả tiếng Anh và tiếng Việt. Mẫu: (1) quyết định và người phụ trách; (2) nguồn dữ liệu, đơn vị bản ghi và một giới hạn; (3) KPI đã kiểm tra và công thức; (4) nhiệm vụ AI cùng ràng buộc prompt; (5) người duyệt và trường nhạy cảm loại bỏ; (6) đường cơ sở, mục tiêu thử nghiệm, chi phí và điều kiện dừng. Dùng Lotus Shop hoặc tình huống mô phỏng tự chọn. Hai bản phải có dữ kiện tương đương.\nThẻ tham chiếu: trưởng nhóm marketing quyết định có thử nghiệm bản tóm tắt tuần có AI hỗ trợ hay không. Dùng dữ liệu tổng hợp kênh/tuần được duyệt. Chuyển đổi chung là 130/3.500 = 3,71%; một tuần chưa chứng minh nhân quả. AI chỉ soạn quan sát và giới hạn từ dữ liệu cung cấp; công thức được kiểm tra độc lập. Trưởng nhóm duyệt mọi bản; loại dữ liệu định danh khách. So sánh 10 cặp bản tóm tắt lịch sử trong thử nghiệm hai tuần dự kiến; mục tiêu giảm 20% trung vị tổng thời gian, KPI công bố đúng, không có nhận định thiếu căn cứ được công bố và chi phí được duyệt. Dừng khi lộ dữ liệu nhạy cảm hoặc lỗi trọng yếu lọt qua duyệt.\nĐánh giá: sáu tiêu chí, mỗi tiêu chí 0–2 điểm: quyết định rõ; định nghĩa và giới hạn dữ liệu; KPI đúng; prompt AI có căn cứ; riêng tư và người duyệt; thử nghiệm đo được và giả định giá trị. Chấm 0 nếu thiếu/sai, 1 nếu chưa đủ, 2 nếu đầy đủ và nhất quán. Đạt từ 9/12 điểm, đồng thời KPI đạt 2/2 và riêng tư/người duyệt đạt 2/2, có đủ hai bản ngôn ngữ. Sửa tiêu chí chưa đạt trước khi đánh dấu hoàn thành. Rubric dùng để tự đánh giá hoặc giảng viên chấm; JSON không triển khai chấm tự động hoặc cấp chứng nhận."
+          }
+        ]
+      }
+    ]
+  },
+  "cohort": {
+    "name": "Data and AI in Business — schedule to be confirmed / Data và AI trong kinh doanh — lịch học cần xác nhận",
+    "startDate": "2026-10-29"
+  }
+}

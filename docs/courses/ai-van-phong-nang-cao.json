@@ -1,0 +1,194 @@
+{
+  "source": "Đề xuất đào tạo V01 – Khóa AI ứng dụng nâng cao trong công việc văn phòng, Mai Thanh Nhã, 07/10/2026. Tài liệu phát hành theo CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+  "framework": {
+    "name": "Khung năng lực AI văn phòng OLYM3",
+    "description": "Bốn mức năng lực dùng AI tạo sinh trong công việc văn phòng, từ nhận biết đến hướng dẫn người khác.",
+    "proficiencyLevels": [
+      { "code": "L1", "rank": 1, "name": "Nhận biết", "description": "Hiểu khái niệm và nhận ra khi nào nên dùng AI cho một việc." },
+      { "code": "L2", "rank": 2, "name": "Áp dụng", "description": "Tự dùng AI hoàn thành việc thường ngày theo mẫu và có kiểm tra lại." },
+      { "code": "L3", "rank": 3, "name": "Thành thạo", "description": "Thiết kế quy trình AI cho việc mới, kiểm soát chất lượng và rủi ro." },
+      { "code": "L4", "rank": 4, "name": "Hướng dẫn", "description": "Chuẩn hóa mẫu và hướng dẫn đồng nghiệp áp dụng an toàn." }
+    ]
+  },
+  "skills": [
+    {
+      "code": "AIVP-DELEGATE",
+      "name": "Giao việc cho AI và chia nhỏ nhiệm vụ",
+      "description": "Chuyển từ hỏi AI sang giao việc: mô tả kết quả cần có, chia việc lớn thành bước nhỏ và đặt tiêu chí nghiệm thu.",
+      "outcomes": ["Viết đề bài giao việc có mục tiêu, bối cảnh, ràng buộc và tiêu chí nghiệm thu", "Chia một nhiệm vụ văn phòng thành chuỗi bước AI làm được", "Đánh giá kết quả AI theo tiêu chí đã đặt"],
+      "tags": ["ai", "giao việc", "văn phòng"]
+    },
+    {
+      "code": "AIVP-PROMPT",
+      "name": "Prompt nâng cao theo nghiệp vụ",
+      "description": "Dùng vai trò, ví dụ mẫu, định dạng đầu ra và vòng phản hồi để có kết quả ổn định cho từng nghiệp vụ.",
+      "outcomes": ["Dùng ví dụ mẫu và định dạng đầu ra để AI làm đúng chuẩn", "Xây thư viện prompt mẫu dùng lại cho nhóm", "Tinh chỉnh prompt qua nhiều vòng phản hồi"],
+      "tags": ["ai", "prompt", "nghiệp vụ"]
+    },
+    {
+      "code": "AIVP-DOCS",
+      "name": "Soạn văn bản và báo cáo có căn cứ",
+      "description": "Dùng AI soạn văn bản hành chính, email và báo cáo dựa trên tài liệu nguồn, có trích dẫn và kiểm tra lại số liệu.",
+      "outcomes": ["Soạn văn bản từ tài liệu nguồn và giữ đúng căn cứ", "Tóm tắt và dựng báo cáo có trích nguồn từng ý quan trọng", "Rà soát văn phong, thể thức và số liệu trước khi gửi"],
+      "tags": ["ai", "văn bản", "báo cáo"]
+    },
+    {
+      "code": "AIVP-EXCEL",
+      "name": "AI hỗ trợ Excel và phân tích dữ liệu",
+      "description": "Nhờ AI viết công thức, làm sạch dữ liệu, phân tích và trình bày kết quả, đồng thời tự kiểm tra lại phép tính.",
+      "outcomes": ["Mô tả bảng dữ liệu để AI viết đúng công thức Excel", "Làm sạch và phân tích dữ liệu với sự hỗ trợ của AI", "Kiểm tra lại kết quả tính toán trước khi dùng"],
+      "tags": ["ai", "excel", "dữ liệu"]
+    },
+    {
+      "code": "AIVP-AUTOMATE",
+      "name": "Chọn công cụ AI và tự động hóa thử nghiệm",
+      "description": "Chọn công cụ AI phù hợp với việc cần làm và thiết kế một quy trình tự động hóa nhỏ để thử nghiệm.",
+      "outcomes": ["So sánh và chọn công cụ AI theo nhiệm vụ, dữ liệu và chi phí", "Vẽ quy trình tự động hóa thử nghiệm có điểm kiểm duyệt của con người"],
+      "tags": ["ai", "công cụ", "tự động hóa"]
+    },
+    {
+      "code": "AIVP-SAFE",
+      "name": "Bảo mật và kiểm chứng đầu ra AI",
+      "description": "Phân loại dữ liệu trước khi đưa vào AI, kiểm chứng thông tin AI tạo ra và tuân thủ quy định nội bộ.",
+      "outcomes": ["Phân loại dữ liệu được và không được đưa vào công cụ AI", "Kiểm chứng thông tin, số liệu và nguồn do AI đưa ra", "Áp dụng checklist bảo mật và kiểm chứng trước khi dùng kết quả"],
+      "tags": ["ai", "bảo mật", "kiểm chứng"]
+    }
+  ],
+  "course": {
+    "code": "AIVP-ADV-01",
+    "title": "AI ứng dụng nâng cao trong công việc văn phòng",
+    "description": "Khóa học vi mô đi kèm lớp 7 giờ dành cho nhân viên văn phòng đã dùng AI cơ bản: chuyển từ hỏi AI sang giao việc, xử lý văn bản và dữ liệu, kiểm chứng và dùng AI an toàn. 12 bài 6–8 phút học qua WhatsApp hoặc web, kết thúc bằng bài kiểm tra và chứng chỉ kỹ năng. Nội dung dựa trên đề xuất đào tạo của Mai Thanh Nhã, phát hành theo giấy phép CC BY 4.0.",
+    "modules": [
+      {
+        "title": "Giao việc cho AI và chia nhỏ nhiệm vụ",
+        "lessons": [
+          {
+            "title": "Từ hỏi AI sang giao việc cho AI",
+            "minutes": 6,
+            "skill": "AIVP-DELEGATE",
+            "level": "L2",
+            "outcome": "Viết đề bài giao việc có đủ mục tiêu, bối cảnh, ràng buộc và tiêu chí nghiệm thu",
+            "summary": "Hỏi AI là đặt một câu hỏi rồi nhận câu trả lời chung chung. Giao việc là mô tả kết quả cần có như khi giao cho một đồng nghiệp mới. Một đề bài giao việc tốt có 4 phần: (1) Mục tiêu – sản phẩm cuối cùng là gì, ai dùng; (2) Bối cảnh – thông tin nền, tài liệu đính kèm; (3) Ràng buộc – độ dài, giọng văn, hạn chót, điều không được làm; (4) Tiêu chí nghiệm thu – thế nào là đạt. Ví dụ: thay vì “viết email mời họp”, hãy giao: “Soạn email mời 12 trưởng phòng họp giao ban thứ Hai 9h, nêu 3 nội dung chính đính kèm, giọng trang trọng, dưới 150 chữ, có dòng xác nhận tham dự.” Thực hành: chọn một việc bạn làm tuần này và viết lại yêu cầu theo đủ 4 phần."
+          },
+          {
+            "title": "Chia nhỏ nhiệm vụ lớn thành chuỗi bước",
+            "minutes": 7,
+            "skill": "AIVP-DELEGATE",
+            "level": "L2",
+            "outcome": "Chia một nhiệm vụ văn phòng lớn thành chuỗi bước nhỏ có đầu ra kiểm tra được",
+            "summary": "AI làm tốt từng bước rõ ràng hơn là một yêu cầu lớn. Với việc như “lập kế hoạch hội nghị khách hàng”, hãy chia thành chuỗi: liệt kê đầu việc → ước tính thời gian → dự trù kinh phí → soạn thư mời → lập checklist hậu cần. Mỗi bước có đầu ra riêng để bạn kiểm tra trước khi chuyển sang bước sau; đầu ra bước trước là đầu vào bước sau. Cách làm: (1) nhờ AI đề xuất các bước, (2) bạn sửa và chốt danh sách, (3) giao từng bước, (4) kiểm tra theo tiêu chí nghiệm thu. Dấu hiệu cần chia nhỏ hơn: kết quả dài, lan man hoặc bỏ sót ý. Thực hành: chia một báo cáo tháng thành 4–5 bước và ghi tiêu chí kiểm tra cho mỗi bước."
+          }
+        ]
+      },
+      {
+        "title": "Prompt nâng cao theo nghiệp vụ",
+        "lessons": [
+          {
+            "title": "Vai trò, ví dụ mẫu và định dạng đầu ra",
+            "minutes": 7,
+            "skill": "AIVP-PROMPT",
+            "level": "L2",
+            "outcome": "Dùng vai trò, ví dụ mẫu và định dạng đầu ra để AI trả kết quả đúng chuẩn nghiệp vụ",
+            "summary": "Ba kỹ thuật giúp kết quả ổn định: (1) Vai trò – “Bạn là chuyên viên pháp chế của công ty hạ tầng” giúp AI chọn đúng thuật ngữ; (2) Ví dụ mẫu – đưa 1–2 mẫu đầu vào → đầu ra đạt chuẩn để AI bắt chước cấu trúc và văn phong (few-shot); (3) Định dạng đầu ra – chỉ định bảng có các cột cụ thể, danh sách đánh số, hoặc mẫu văn bản có sẵn mục. Ví dụ nghiệp vụ: phân loại 30 email khách hàng thành bảng gồm Người gửi | Vấn đề | Mức ưu tiên | Bộ phận xử lý, kèm 2 dòng mẫu đã phân loại đúng. Lưu ý: ví dụ mẫu phải là dữ liệu mô phỏng hoặc đã được phép sử dụng. Thực hành: viết prompt có đủ ba kỹ thuật cho một việc lặp lại hằng tuần của bạn."
+          },
+          {
+            "title": "Thư viện prompt mẫu và vòng phản hồi",
+            "minutes": 6,
+            "skill": "AIVP-PROMPT",
+            "level": "L3",
+            "outcome": "Tinh chỉnh prompt qua vòng phản hồi và lưu thành mẫu dùng lại cho nhóm",
+            "summary": "Prompt tốt hiếm khi đúng ngay lần đầu. Dùng vòng phản hồi: chạy → so với tiêu chí → chỉ ra cụ thể chỗ chưa đạt (“đoạn 2 thiếu số liệu quý 3, rút gọn còn 5 ý”) → chạy lại. Tránh phản hồi chung chung như “viết hay hơn”. Khi prompt đã ổn định, lưu vào thư viện mẫu của nhóm với: tên việc, prompt có chỗ trống [ĐIỀN], ví dụ kết quả đạt, lưu ý khi dùng và người phụ trách cập nhật. Khóa học bàn giao 12–15 prompt mẫu cho giao việc, văn bản, báo cáo và Excel làm điểm khởi đầu. Thực hành: lấy prompt ở bài trước, chạy hai vòng phản hồi và lưu bản cuối theo mẫu thư viện."
+          }
+        ]
+      },
+      {
+        "title": "Soạn văn bản và báo cáo có căn cứ",
+        "lessons": [
+          {
+            "title": "Soạn văn bản dựa trên tài liệu nguồn",
+            "minutes": 7,
+            "skill": "AIVP-DOCS",
+            "level": "L2",
+            "outcome": "Soạn văn bản hành chính và email dựa đúng trên tài liệu nguồn được cung cấp",
+            "summary": "Văn bản có căn cứ nghĩa là mọi thông tin quan trọng đều lấy từ tài liệu nguồn, không phải do AI tự nghĩ ra. Cách làm: (1) đưa tài liệu nguồn vào (quyết định, biên bản, hợp đồng đã được phép dùng); (2) yêu cầu rõ “chỉ dùng thông tin trong tài liệu, phần nào thiếu thì ghi [CẦN BỔ SUNG]”; (3) chỉ định thể thức – công văn, tờ trình, thông báo, email; (4) yêu cầu ghi số hiệu, ngày tháng đúng như nguồn. Ví dụ: từ biên bản họp, soạn thông báo kết luận gồm các việc, người phụ trách, hạn hoàn thành. Bẫy thường gặp: AI tự thêm số liệu, tên người hoặc điều khoản không có trong nguồn. Thực hành: soạn một thông báo từ biên bản họp mô phỏng và đánh dấu từng ý lấy từ đâu."
+          },
+          {
+            "title": "Báo cáo có trích nguồn và rà soát trước khi gửi",
+            "minutes": 7,
+            "skill": "AIVP-DOCS",
+            "level": "L3",
+            "outcome": "Dựng báo cáo tổng hợp có trích nguồn cho từng ý và rà soát số liệu trước khi gửi",
+            "summary": "Khi tổng hợp từ nhiều tài liệu, yêu cầu AI ghi nguồn sau mỗi ý quan trọng, ví dụ “(Báo cáo QLDA tháng 9, mục 2)”. Cấu trúc báo cáo gợi ý: Tóm tắt điều hành 3–5 dòng → Kết quả chính có số liệu → Vấn đề và nguyên nhân → Đề xuất → Phụ lục nguồn. Trước khi gửi, rà soát bốn điểm: (1) mỗi con số khớp với nguồn; (2) không có kết luận vượt quá dữ liệu; (3) thể thức, tên đơn vị, chức danh đúng; (4) văn phong phù hợp người nhận. Có thể nhờ AI tự rà: “liệt kê các câu không có nguồn hỗ trợ”, nhưng người soạn vẫn chịu trách nhiệm cuối cùng. Thực hành: tổng hợp hai báo cáo mô phỏng thành một trang có trích nguồn."
+          }
+        ]
+      },
+      {
+        "title": "AI hỗ trợ Excel và phân tích dữ liệu",
+        "lessons": [
+          {
+            "title": "Nhờ AI viết công thức Excel đúng ngay lần đầu",
+            "minutes": 7,
+            "skill": "AIVP-EXCEL",
+            "level": "L2",
+            "outcome": "Mô tả cấu trúc bảng dữ liệu để AI viết đúng công thức Excel cần dùng",
+            "summary": "AI viết công thức chính xác khi biết rõ bảng của bạn. Hãy mô tả: tên sheet, vùng dữ liệu (ví dụ A1:F500), tên và kiểu từng cột (ngày, số tiền, mã dự án), dòng tiêu đề, phiên bản Excel và kết quả mong muốn kèm một ví dụ cụ thể. Ví dụ: “Sheet ThanhToan, A2:F500; cột B mã dự án, cột D ngày thanh toán, cột F số tiền. Viết công thức tính tổng tiền theo mã dự án ở ô H2 trong quý 3/2026.” Yêu cầu AI giải thích từng phần công thức (SUMIFS, XLOOKUP, FILTER…) và nêu trường hợp có thể sai như ô trống hay ngày lưu dạng chữ. Thử công thức trên vài dòng tự tính tay được. Thực hành: viết mô tả bảng cho một file bạn dùng thường xuyên và nhờ AI viết 2 công thức."
+          },
+          {
+            "title": "Làm sạch, phân tích và kiểm tra kết quả",
+            "minutes": 8,
+            "skill": "AIVP-EXCEL",
+            "level": "L2",
+            "outcome": "Làm sạch, phân tích dữ liệu với AI và tự kiểm tra lại kết quả tính toán trước khi dùng",
+            "summary": "Quy trình 4 bước: (1) Làm sạch – nhờ AI chỉ ra dòng trùng, ô trống, định dạng ngày và số không thống nhất, rồi đề xuất cách xử lý; (2) Phân tích – đặt câu hỏi nghiệp vụ cụ thể như “dự án nào chậm thanh toán quá 30 ngày”, yêu cầu PivotTable hoặc công thức thay vì chỉ một con số; (3) Trình bày – chọn biểu đồ hợp với câu hỏi và viết 3 nhận xét chính; (4) Kiểm tra – đối chiếu tổng với số liệu gốc, tính tay 2–3 trường hợp, xem kết quả có hợp lý không. Không đưa dữ liệu khách hàng hay tài chính thật vào công cụ AI khi chưa được phép; ưu tiên dữ liệu mô phỏng. Thực hành: dùng bảng tính bài tập, làm đủ 4 bước và ghi lại cách bạn đã kiểm tra."
+          }
+        ]
+      },
+      {
+        "title": "Chọn công cụ và quy trình tự động hóa thử nghiệm",
+        "lessons": [
+          {
+            "title": "Chọn đúng công cụ AI cho từng việc",
+            "minutes": 6,
+            "skill": "AIVP-AUTOMATE",
+            "level": "L2",
+            "outcome": "So sánh và chọn công cụ AI phù hợp theo nhiệm vụ, loại dữ liệu và chi phí",
+            "summary": "Không có công cụ AI tốt nhất cho mọi việc. Chọn theo 5 câu hỏi: (1) Việc gì – soạn thảo, phân tích bảng tính, tóm tắt tài liệu dài, tạo hình hay họp trực tuyến; (2) Dữ liệu gì – công khai, nội bộ hay mật, và công cụ đó lưu, dùng dữ liệu ra sao; (3) Tích hợp – có làm việc trong Word, Excel, email đang dùng không; (4) Chi phí – miễn phí hay tài khoản trả phí, ai chi trả; (5) Quy định – công ty đã cho phép công cụ nào. Lập bảng so sánh 2–3 công cụ theo các tiêu chí trên trước khi dùng cho việc thật. Tài khoản AI trả phí phục vụ khóa học do doanh nghiệp tự trang bị. Thực hành: chọn 3 việc thường ngày và ghi công cụ phù hợp cho từng việc cùng lý do."
+          },
+          {
+            "title": "Thiết kế quy trình tự động hóa thử nghiệm",
+            "minutes": 7,
+            "skill": "AIVP-AUTOMATE",
+            "level": "L3",
+            "outcome": "Vẽ quy trình tự động hóa thử nghiệm có điểm kiểm duyệt của con người",
+            "summary": "Bắt đầu tự động hóa bằng một quy trình nhỏ, lặp lại nhiều và rủi ro thấp, ví dụ tổng hợp email báo cáo tuần thành một bảng. Vẽ quy trình theo: Kích hoạt (khi nào chạy) → Đầu vào (lấy dữ liệu từ đâu) → Bước AI xử lý → Điểm kiểm duyệt của con người → Đầu ra (gửi đi hay lưu ở đâu). Luôn có ít nhất một điểm người kiểm duyệt trước khi kết quả gửi ra ngoài hoặc ảnh hưởng quyết định. Chạy thử 2 tuần với dữ liệu mô phỏng, đo thời gian tiết kiệm và lỗi phát sinh rồi mới đề xuất mở rộng. Khóa học chỉ dừng ở thử nghiệm, không tích hợp vào hệ thống vận hành thật. Thực hành: vẽ quy trình 5 bước cho một việc của bạn và đánh dấu điểm kiểm duyệt."
+          }
+        ]
+      },
+      {
+        "title": "Bảo mật, kiểm chứng và bài tổng hợp",
+        "lessons": [
+          {
+            "title": "Dữ liệu nào được đưa vào AI",
+            "minutes": 6,
+            "skill": "AIVP-SAFE",
+            "level": "L2",
+            "outcome": "Phân loại dữ liệu được và không được đưa vào công cụ AI theo quy định nội bộ",
+            "summary": "Trước khi dán bất cứ thứ gì vào AI, phân loại dữ liệu: (1) Công khai – thông tin đã công bố, dùng được; (2) Nội bộ – quy trình, biểu mẫu, chỉ dùng trên công cụ được công ty cho phép; (3) Mật – hợp đồng, giá thầu, tài chính, dữ liệu cá nhân của khách hàng và nhân viên, không đưa vào AI khi chưa có phê duyệt. Cách giảm rủi ro: ẩn danh tên, số điện thoại, mã khách hàng; thay số liệu thật bằng số mô phỏng; chỉ đưa phần cần thiết; kiểm tra cài đặt lưu lịch sử và dùng dữ liệu để huấn luyện của công cụ. Khi không chắc, hỏi bộ phận phụ trách bảo mật trước. Thực hành: phân loại 10 tài liệu bạn hay dùng vào 3 nhóm trên."
+          },
+          {
+            "title": "Kiểm chứng đầu ra và checklist trước khi dùng",
+            "minutes": 7,
+            "skill": "AIVP-SAFE",
+            "level": "L3",
+            "outcome": "Kiểm chứng thông tin, số liệu, nguồn do AI tạo ra và áp dụng checklist trước khi dùng kết quả",
+            "summary": "AI có thể trả lời rất tự tin nhưng sai: bịa nguồn, nhầm số, trích sai văn bản pháp lý. Checklist trước khi dùng kết quả: (1) Số liệu khớp với nguồn gốc; (2) Nguồn trích dẫn có thật và đúng nội dung; (3) Tên người, đơn vị, số hiệu văn bản chính xác; (4) Không lộ dữ liệu mật; (5) Kết luận không vượt quá dữ liệu; (6) Người có thẩm quyền đã duyệt nếu gửi ra ngoài. Kỹ thuật: yêu cầu AI liệt kê những điểm có thể sai, hỏi lại theo cách khác để so sánh, đối chiếu với tài liệu gốc. Bài tổng hợp cuối khóa: hoàn thành một tình huống từ giao việc đến báo cáo có kiểm chứng và nộp kèm checklist này. Thực hành: áp checklist cho một kết quả AI bạn đã dùng gần đây."
+          }
+        ]
+      }
+    ]
+  },
+  "cohort": {
+    "name": "Lớp AI văn phòng nâng cao – 10/2026",
+    "startDate": "2026-10-21"
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "source": "Đề xuất khóa học độc lập OLYM3, phiên bản 1.0, ngày 28/10/2026. Tham khảo định hướng đào tạo Forward Deployed Engineering của sixonefour labs: https://www.sixonefourlabs.com/fde-course (truy cập 28/10/2026). Nội dung, tình huống chăm sóc khách hàng, thời lượng, rubric và ngưỡng đánh giá dưới đây là thiết kế đề xuất riêng; không phải chương trình chính thức, bản dịch hay chứng nhận của sixonefour labs. Cấu trúc dữ liệu theo ai-van-phong-nang-cao.json do người dùng cung cấp. Không kế thừa giấy phép của tệp mẫu cho nội dung nguồn tham khảo.",
+  "framework": {
+    "name": "Khung năng lực triển khai trợ lý AI doanh nghiệp OLYM3",
+    "description": "Tám nhóm năng lực theo vòng đời triển khai trợ lý AI chăm sóc khách hàng, từ khảo sát bài toán đến bàn giao; đánh giá bằng sản phẩm thực hành và bằng chứng kiểm thử.",
+    "proficiencyLevels": [
+      {
+        "code": "L1",
+        "rank": 1,
+        "name": "Nhận biết",
+        "description": "Giải thích khái niệm, nhận diện phạm vi và rủi ro trong tình huống triển khai."
+      },
+      {
+        "code": "L2",
+        "rank": 2,
+        "name": "Áp dụng",
+        "description": "Thực hiện nhiệm vụ theo hướng dẫn với dữ liệu mô phỏng và kiểm tra đầu ra."
+      },
+      {
+        "code": "L3",
+        "rank": 3,
+        "name": "Triển khai độc lập",
+        "description": "Thiết kế, xây dựng và đánh giá giải pháp trong phạm vi được duyệt, giải thích quyết định bằng bằng chứng."
+      },
+      {
+        "code": "L4",
+        "rank": 4,
+        "name": "Dẫn dắt và bàn giao",
+        "description": "Chuẩn hóa quy trình, hướng dẫn nhóm tiếp nhận và chịu trách nhiệm về bộ tiêu chí nghiệm thu."
+      }
+    ]
+  },
+  "skills": [
+    {
+      "code": "AIDP-DISCOVER",
+      "name": "Khảo sát quy trình hỗ trợ khách hàng",
+      "description": "Xác định vấn đề cần giải quyết từ công việc và dữ liệu thực tế, trước khi chọn công nghệ.",
+      "outcomes": [
+        "Lập bản đồ quy trình hiện tại và xác định một điểm nghẽn có bằng chứng.",
+        "Viết giả thuyết có thể kiểm chứng và chốt phạm vi MVP với bên nghiệp vụ."
+      ],
+      "tags": [
+        "ai deployment",
+        "chăm sóc khách hàng",
+        "discover"
+      ]
+    },
+    {
+      "code": "AIDP-VALUE",
+      "name": "Đo giá trị và tính khả thi kinh doanh",
+      "description": "Ước tính chi phí, lợi ích và tác động của trợ lý AI bằng giả định minh bạch.",
+      "outcomes": [
+        "Lập bảng chi phí và tính thời gian hoàn vốn theo giả định có thể kiểm tra.",
+        "Thiết kế phép đo hiệu quả với chỉ số chất lượng và điều kiện dừng rõ ràng."
+      ],
+      "tags": [
+        "ai deployment",
+        "chăm sóc khách hàng",
+        "value"
+      ]
+    },
+    {
+      "code": "AIDP-DESIGN",
+      "name": "Thiết kế kiến trúc và lựa chọn công nghệ",
+      "description": "Chọn giải pháp tối thiểu phù hợp với dữ liệu, nguồn lực và yêu cầu tích hợp.",
+      "outcomes": [
+        "Chọn kiến trúc theo độ phức tạp nghiệp vụ và giải thích được lựa chọn.",
+        "So sánh phương án xây hoặc mua và ghi nhận đánh đổi có thời hạn xử lý."
+      ],
+      "tags": [
+        "ai deployment",
+        "chăm sóc khách hàng",
+        "design"
+      ]
+    },
+    {
+      "code": "AIDP-KNOWLEDGE",
+      "name": "Chuẩn bị tri thức và truy xuất có phân quyền",
+      "description": "Biến tài liệu nghiệp vụ thành nguồn tri thức có phiên bản, chủ sở hữu và căn cứ trích dẫn.",
+      "outcomes": [
+        "Tạo bộ tài liệu mô phỏng có metadata và quy tắc xử lý nguồn mâu thuẫn.",
+        "Đo khả năng tìm đúng nguồn và ngăn truy xuất tài liệu ngoài quyền truy cập."
+      ],
+      "tags": [
+        "ai deployment",
+        "chăm sóc khách hàng",
+        "knowledge"
+      ]
+    },
+    {
+      "code": "AIDP-BUILD",
+      "name": "Xây nguyên mẫu bằng AI coding và tích hợp",
+      "description": "Xây luồng sử dụng hoàn chỉnh với kiểm soát mã nguồn, lỗi và thao tác của người dùng.",
+      "outcomes": [
+        "Xây một luồng hỏi đáp hoạt động được và kiểm tra thay đổi do AI tạo.",
+        "Hoàn thiện luồng người dùng có xác nhận, phân quyền và xử lý lỗi tích hợp."
+      ],
+      "tags": [
+        "ai deployment",
+        "chăm sóc khách hàng",
+        "build"
+      ]
+    },
+    {
+      "code": "AIDP-EVALUATE",
+      "name": "Đánh giá, bảo vệ và vận hành thử",
+      "description": "Thiết lập kiểm thử và quan sát hệ thống trước khi cho phép thử nghiệm có người dùng.",
+      "outcomes": [
+        "Xây bộ kiểm thử có đáp án tham chiếu và xác định điều kiện cho phép pilot.",
+        "Kiểm thử phòng vệ nhiều lớp và thực hành xử lý một sự cố trong môi trường thử."
+      ],
+      "tags": [
+        "ai deployment",
+        "chăm sóc khách hàng",
+        "evaluate"
+      ]
+    },
+    {
+      "code": "AIDP-FEEDBACK",
+      "name": "Tổ chức pilot và quản lý phản hồi",
+      "description": "Phối hợp với người dùng thật trong phạm vi được duyệt và cải tiến bằng bằng chứng.",
+      "outcomes": [
+        "Lập kế hoạch pilot với nhóm dùng thử, cách lấy phản hồi và tiêu chí tiếp tục.",
+        "Ưu tiên cải tiến và thương lượng phạm vi bằng tác động, công sức và rủi ro."
+      ],
+      "tags": [
+        "ai deployment",
+        "chăm sóc khách hàng",
+        "feedback"
+      ]
+    },
+    {
+      "code": "AIDP-HANDOVER",
+      "name": "Chứng minh tác động và bàn giao giải pháp",
+      "description": "Trình bày giá trị, giới hạn và kế hoạch duy trì bằng hồ sơ dự án có thể kiểm chứng.",
+      "outcomes": [
+        "Trình bày demo 7 phút gắn vấn đề, giải pháp, kết quả đo và đề xuất tiếp theo.",
+        "Bàn giao MVP có thể chạy lại, bằng chứng đánh giá và hướng dẫn vận hành cho nhóm tiếp nhận."
+      ],
+      "tags": [
+        "ai deployment",
+        "chăm sóc khách hàng",
+        "handover"
+      ]
+    }
+  ],
+  "course": {
+    "code": "AIDP-CS-01",
+    "title": "AI Deployment Practitioner – Triển khai trợ lý AI chăm sóc khách hàng cho doanh nghiệp",
+    "description": "Khóa học chuyên biệt dành cho lập trình viên, kỹ sư giải pháp và chuyên viên tự động hóa có khả năng lập trình cơ bản, hiểu API/JSON và Git; không yêu cầu tự huấn luyện mô hình. Lộ trình đề xuất 4 tuần, mỗi tuần 2 mô-đun: 16 bài vi mô × 10 phút = 160 phút, kết hợp 800 phút thực hành và hướng dẫn, tổng cộng 16 giờ. Người học xây một trợ lý nội bộ giúp nhân viên chăm sóc khách hàng tra cứu chính sách và soạn nháp có nguồn; có phân quyền, đánh giá, người duyệt và hồ sơ bàn giao. Dữ liệu học tập là mô phỏng; học viên cần máy tính, môi trường lập trình và quyền truy cập công cụ AI/API do đơn vị tổ chức lựa chọn, chi phí công cụ chưa được ấn định. Tám mô-đun tương ứng tám nhóm năng lực; bài tập sau mỗi bài tích lũy thành đồ án. Điều kiện hoàn thành theo rubric ở bài cuối, không mặc định cấp chứng chỉ hay công nhận bởi bên tham khảo. Ngày khai giảng trong cohort là mốc đề xuất có thể sửa trước khi nhập. Pilot hai tuần là kế hoạch triển khai sau khóa học, không tính vào 16 giờ đào tạo.",
+    "modules": [
+      {
+        "title": "Khảo sát quy trình hỗ trợ khách hàng",
+        "lessons": [
+          {
+            "title": "Phỏng vấn để tìm đúng điểm nghẽn",
+            "minutes": 10,
+            "skill": "AIDP-DISCOVER",
+            "level": "L2",
+            "outcome": "Lập bản đồ quy trình hiện tại và xác định một điểm nghẽn có bằng chứng.",
+            "summary": "Dự án xuyên suốt: xây trợ lý AI nội bộ giúp nhân viên chăm sóc khách hàng của một doanh nghiệp thương mại điện tử tra cứu chính sách và soạn phản hồi. Trợ lý không tự quyết định hoàn tiền. Trước khi xây, phỏng vấn nhân viên hỗ trợ, trưởng nhóm và người quản lý chính sách. Hỏi về một yêu cầu vừa xử lý: thông tin nằm ở đâu, bước nào chờ lâu, khi nào phải hỏi cấp trên. Tránh hỏi dẫn dắt như “Bạn có muốn dùng chatbot không?”. Vẽ luồng tiếp nhận → phân loại → tìm chính sách → soạn câu trả lời → kiểm tra → phản hồi. Bài tập: dùng 10 yêu cầu mô phỏng để ghi thời gian từng bước và lập bảng gồm điểm nghẽn, bằng chứng, người chịu ảnh hưởng, nguyên nhân giả định. Đạt khi chọn được một điểm nghẽn cụ thể, có số liệu ban đầu và phân biệt quan sát với suy đoán."
+          },
+          {
+            "title": "Giả thuyết giá trị và phạm vi thử nghiệm",
+            "minutes": 10,
+            "skill": "AIDP-DISCOVER",
+            "level": "L3",
+            "outcome": "Viết giả thuyết có thể kiểm chứng và chốt phạm vi MVP với bên nghiệp vụ.",
+            "summary": "Chuyển điểm nghẽn thành giả thuyết theo mẫu: nếu cung cấp giải pháp X cho nhóm Y trong tình huống Z, chỉ số A sẽ thay đổi từ mức B sang C mà không làm giảm chất lượng D. Ví dụ mô phỏng: giảm thời gian soạn nháp trung vị từ 8 xuống 5 phút cho câu hỏi đổi trả, đồng thời không tăng phản hồi sai chính sách. Đây là mục tiêu thử nghiệm, không phải hiệu quả đã chứng minh. MVP chỉ tra cứu tài liệu được duyệt, trả lời kèm nguồn và chuyển người xử lý khi thiếu căn cứ. Ngoài phạm vi: thay đổi đơn hàng, thanh toán, tự phê duyệt hoàn tiền. Bài tập: viết bản đề bài một trang gồm người dùng, vấn đề, giả thuyết, phạm vi, điều kiện dừng và người duyệt. Đạt khi người nghiệp vụ có thể xác nhận đúng vấn đề và chấp nhận tiêu chí nghiệm thu."
+          }
+        ]
+      },
+      {
+        "title": "Đo giá trị và tính khả thi kinh doanh",
+        "lessons": [
+          {
+            "title": "Từ thời gian tiết kiệm đến bài toán chi phí",
+            "minutes": 10,
+            "skill": "AIDP-VALUE",
+            "level": "L2",
+            "outcome": "Lập bảng chi phí và tính thời gian hoàn vốn theo giả định có thể kiểm tra.",
+            "summary": "Bắt đầu từ số yêu cầu mỗi tháng, thời gian xử lý, tỷ lệ yêu cầu phù hợp và tỷ lệ nhân viên thực sự sử dụng. Giờ công tiết kiệm bằng số yêu cầu đủ điều kiện × số phút giảm mỗi yêu cầu × tỷ lệ sử dụng / 60. Ví dụ mô phỏng: 3.000 yêu cầu, 60% đủ điều kiện, giảm 3 phút, sử dụng 50% thì tiết kiệm 45 giờ mỗi tháng. Giá trị thời gian không đồng nghĩa với tiền mặt tiết kiệm; cần nêu doanh nghiệp sẽ dùng năng lực này ra sao. Chi phí gồm xây dựng, làm sạch dữ liệu, mô hình, lưu trữ, kiểm duyệt, vận hành và bảo trì. Hoàn vốn chỉ tính khi lợi ích ròng hàng tháng dương. Bài tập: lập ba kịch bản thấp, cơ sở và cao. Đạt khi công thức nhất quán, mọi giả định có người xác nhận và không bỏ chi phí vận hành."
+          },
+          {
+            "title": "Chọn KPI và thiết kế phép đo trước–sau",
+            "minutes": 10,
+            "skill": "AIDP-VALUE",
+            "level": "L3",
+            "outcome": "Thiết kế phép đo hiệu quả với chỉ số chất lượng và điều kiện dừng rõ ràng.",
+            "summary": "Theo dõi đồng thời tốc độ, chất lượng, mức sử dụng và chi phí. Chỉ số chính có thể là thời gian soạn phản hồi trung vị; chỉ số bảo vệ gồm tỷ lệ sai chính sách, tỷ lệ nguồn hỗ trợ đúng câu trả lời và tỷ lệ phải sửa nội dung quan trọng. Chi phí mỗi yêu cầu thành công bằng tổng chi phí thử nghiệm chia số yêu cầu đạt chuẩn. So sánh hai nhóm yêu cầu có độ khó tương đương hoặc dùng cùng bộ tình huống trước và sau; ghi nhận khác biệt giữa nhân viên để tránh kết luận quá mức. Không dùng số lượt mở trợ lý làm bằng chứng duy nhất về giá trị. Bài tập: lập kế hoạch đo với định nghĩa từng chỉ số, cách thu thập, cỡ mẫu dự kiến, người chấm và ngưỡng dừng khi có lỗi nghiêm trọng. Đạt khi người khác có thể lặp lại cách đo."
+          }
+        ]
+      },
+      {
+        "title": "Thiết kế kiến trúc và lựa chọn công nghệ",
+        "lessons": [
+          {
+            "title": "Chọn tìm kiếm, RAG hay agent",
+            "minutes": 10,
+            "skill": "AIDP-DESIGN",
+            "level": "L2",
+            "outcome": "Chọn kiến trúc theo độ phức tạp nghiệp vụ và giải thích được lựa chọn.",
+            "summary": "Phân biệt ba cách: tìm kiếm trả về tài liệu liên quan; RAG truy xuất đoạn tài liệu rồi dùng mô hình tạo phản hồi dựa trên các đoạn đó; agent có thể quyết định chuỗi bước và gọi công cụ. Với trợ lý tra cứu chính sách, bắt đầu bằng tìm kiếm kết hợp RAG, chỉ thêm công cụ khi có yêu cầu đã xác nhận. Sơ đồ tối thiểu: giao diện nhân viên → xác thực → dịch vụ hỏi đáp → truy xuất tài liệu được phép → tạo nháp kèm nguồn → nhân viên duyệt. RAG không tự bảo đảm câu trả lời đúng; vẫn cần kiểm thử truy xuất và tính có căn cứ. Bài tập: vẽ kiến trúc và liệt kê đầu vào, đầu ra, điểm lỗi, cách xử lý khi nguồn không đủ. Đạt khi mỗi thành phần gắn với một yêu cầu và không có hành động nghiệp vụ vượt phạm vi."
+          },
+          {
+            "title": "Build hay buy và sổ quyết định kỹ thuật",
+            "minutes": 10,
+            "skill": "AIDP-DESIGN",
+            "level": "L3",
+            "outcome": "So sánh phương án xây hoặc mua và ghi nhận đánh đổi có thời hạn xử lý.",
+            "summary": "So sánh một giải pháp sẵn có với một phương án tự xây bằng cùng tiêu chí: tích hợp, phân quyền, khả năng xuất dữ liệu, chất lượng trên bộ kiểm thử, tổng chi phí và công sức bảo trì. Không chọn chỉ vì bản demo đẹp hoặc giá mô hình thấp. Tách chi phí ban đầu khỏi chi phí tăng theo lưu lượng. Dùng sổ quyết định gồm bối cảnh, phương án, bằng chứng, lựa chọn, hạn chế, người chịu trách nhiệm và thời điểm xem lại. Nếu dùng nợ kỹ thuật để tăng tốc, ghi rõ phạm vi ảnh hưởng và điều kiện phải khắc phục; không xem bỏ phân quyền là nợ có thể chấp nhận. Bài tập: lập bảng so sánh hai phương án và một quyết định kiến trúc. Đạt khi có lý do nghiệp vụ, giả định về tải và kế hoạch thoát khỏi nhà cung cấp."
+          }
+        ]
+      },
+      {
+        "title": "Chuẩn bị tri thức và truy xuất có phân quyền",
+        "lessons": [
+          {
+            "title": "Từ tài liệu rời rạc đến bộ tri thức được duyệt",
+            "minutes": 10,
+            "skill": "AIDP-KNOWLEDGE",
+            "level": "L2",
+            "outcome": "Tạo bộ tài liệu mô phỏng có metadata và quy tắc xử lý nguồn mâu thuẫn.",
+            "summary": "Trợ lý chỉ đáng tin khi tài liệu nguồn có người chịu trách nhiệm. Tạo bộ chính sách mô phỏng về giao hàng, đổi trả và bảo hành; mỗi tài liệu có mã, phiên bản, ngày hiệu lực, trạng thái duyệt, người sở hữu và nhóm được truy cập. Loại bản nháp khỏi tập trả lời. Khi hai nguồn mâu thuẫn, đánh dấu để người sở hữu xử lý; không để mô hình tự chọn chính sách có lợi hơn. Chia tài liệu theo ý nghĩa, giữ điều kiện và ngoại lệ cùng nhau, tránh tách mức phí khỏi điều kiện áp dụng. Bài tập: chuẩn hóa ít nhất 6 tài liệu mô phỏng, tạo danh mục và lịch cập nhật. Đạt khi mỗi đoạn có thể truy về đúng tài liệu và phiên bản, đồng thời có quy tắc thu hồi nguồn hết hiệu lực."
+          },
+          {
+            "title": "Kiểm thử truy xuất và trích dẫn",
+            "minutes": 10,
+            "skill": "AIDP-KNOWLEDGE",
+            "level": "L3",
+            "outcome": "Đo khả năng tìm đúng nguồn và ngăn truy xuất tài liệu ngoài quyền truy cập.",
+            "summary": "Lập bộ câu hỏi có nguồn đúng đã gán nhãn: câu trực tiếp, diễn đạt khác, nhiều điều kiện, ngoài phạm vi và thiếu thông tin. Kiểm tra truy xuất trước khi đánh giá văn phong phản hồi. Với mỗi câu, ghi các đoạn được trả về, nguồn đúng có xuất hiện trong top-k hay không và liệu đoạn đó đủ hỗ trợ câu trả lời. Chỉ số tìm đúng nguồn không thay thế việc kiểm tra câu trả lời có được nguồn hỗ trợ. Phân quyền phải lọc tại tầng truy xuất theo danh tính đã xác thực, không chỉ thêm lời nhắc trong prompt. Bài tập: tạo ít nhất 20 câu hỏi và thử với hai vai trò nhân viên khác nhau. Đạt khi có báo cáo lỗi truy xuất, ví dụ trích dẫn đúng và không trả đoạn tài liệu bị cấm cho tài khoản kiểm thử."
+          }
+        ]
+      },
+      {
+        "title": "Xây nguyên mẫu bằng AI coding và tích hợp",
+        "lessons": [
+          {
+            "title": "Giao nhiệm vụ cho AI coding theo lát cắt nhỏ",
+            "minutes": 10,
+            "skill": "AIDP-BUILD",
+            "level": "L2",
+            "outcome": "Xây một luồng hỏi đáp hoạt động được và kiểm tra thay đổi do AI tạo.",
+            "summary": "Chia MVP thành các lát cắt có thể chạy: nhập câu hỏi, truy xuất tài liệu, hiển thị nháp và nguồn, ghi phản hồi. Khi giao việc cho AI coding, cung cấp yêu cầu, cấu trúc đầu vào và đầu ra, tiêu chí chấp nhận và giới hạn thay đổi. Yêu cầu giải thích phần sửa, kiểm tra diff và chạy kiểm thử; không đưa khóa API vào prompt hoặc kho mã. Dùng biến môi trường và tệp cấu hình mẫu không chứa bí mật. Bài tập: xây một luồng từ giao diện đến dữ liệu mô phỏng, có README hướng dẫn chạy và thông báo lỗi dễ hiểu. Đạt khi người khác chạy được theo hướng dẫn, một câu hỏi có nguồn trả về đúng định dạng và đầu vào lỗi không làm lộ thông tin hệ thống."
+          },
+          {
+            "title": "Thiết kế duyệt nháp và chuyển người xử lý",
+            "minutes": 10,
+            "skill": "AIDP-BUILD",
+            "level": "L3",
+            "outcome": "Hoàn thiện luồng người dùng có xác nhận, phân quyền và xử lý lỗi tích hợp.",
+            "summary": "Giao diện cần giúp nhân viên quyết định: hiển thị câu trả lời nháp, nguồn và phiên bản, thông tin còn thiếu, nút sửa và lý do chuyển cấp. Không trình bày độ tự tin tự khai của mô hình như xác suất đúng. MVP chỉ đọc dữ liệu giả lập; mọi thao tác có ảnh hưởng thật cần quyền được kiểm tra ở máy chủ và phê duyệt theo quy trình. Khi kết nối công cụ, kiểm tra schema đầu vào, timeout, retry có giới hạn và tránh tạo tác vụ trùng. Khi truy xuất thất bại, thông báo giới hạn và chuyển người xử lý thay vì tự tạo đáp án. Bài tập: thử bốn luồng bình thường, thiếu nguồn, mất kết nối và không đủ quyền. Đạt khi người dùng luôn hiểu trạng thái và không có phản hồi tự gửi cho khách hàng."
+          }
+        ]
+      },
+      {
+        "title": "Đánh giá, bảo vệ và vận hành thử",
+        "lessons": [
+          {
+            "title": "Bộ đánh giá và tiêu chí mở thử nghiệm",
+            "minutes": 10,
+            "skill": "AIDP-EVALUATE",
+            "level": "L3",
+            "outcome": "Xây bộ kiểm thử có đáp án tham chiếu và xác định điều kiện cho phép pilot.",
+            "summary": "Tạo ít nhất 40 tình huống: 20 phổ biến, 8 ngoại lệ, 6 thiếu hoặc mâu thuẫn nguồn và 6 tình huống tấn công hoặc vượt quyền. Mỗi mục có câu hỏi, vai trò, nguồn hợp lệ, tiêu chí đúng và hành vi mong đợi. Chấm riêng đúng chính sách, căn cứ nguồn, từ chối phù hợp và trải nghiệm; không chỉ chấm mức giống câu mẫu. Mục tiêu đề xuất cho bài tập: ít nhất 90% tình huống thông thường đạt rubric, không có lỗi lộ dữ liệu hoặc tự thực hiện thao tác bị cấm trong bộ thử. Đây là cổng nghiệm thu nội bộ, không bảo đảm an toàn tuyệt đối. Bài tập: lưu kết quả theo phiên bản prompt và dữ liệu, sửa ba nhóm lỗi lớn nhất rồi chạy lại. Đạt khi có bằng chứng đánh giá và giải thích được các trường hợp chưa đạt."
+          },
+          {
+            "title": "Prompt injection, nhật ký và cơ chế dừng",
+            "minutes": 10,
+            "skill": "AIDP-EVALUATE",
+            "level": "L3",
+            "outcome": "Kiểm thử phòng vệ nhiều lớp và thực hành xử lý một sự cố trong môi trường thử.",
+            "summary": "Nội dung tài liệu hoặc tin nhắn có thể chứa chỉ dẫn độc hại như yêu cầu bỏ qua quy tắc hay tiết lộ dữ liệu. Xem chúng là dữ liệu không đáng tin, tách khỏi chỉ dẫn hệ thống, giới hạn quyền công cụ và kiểm tra quyền bên ngoài mô hình. Che dữ liệu nhạy cảm trong log; chỉ ghi nội dung cần thiết, có thời hạn lưu và quyền đọc phù hợp. Theo dõi độ trễ, chi phí, lỗi truy xuất, phản hồi bị từ chối và lỗi chất lượng qua kiểm tra mẫu. Chuẩn bị công tắc dừng, phiên bản trước để quay lui và đầu mối xử lý. Bài tập: chèn một chỉ dẫn độc hại vào tài liệu mô phỏng, thử truy cập chéo vai trò, mô phỏng nguồn sai rồi dừng và khôi phục. Đạt khi có nhật ký diễn tập và người chịu trách nhiệm từng bước."
+          }
+        ]
+      },
+      {
+        "title": "Tổ chức pilot và quản lý phản hồi",
+        "lessons": [
+          {
+            "title": "Chạy pilot có kiểm soát và thu phản hồi",
+            "minutes": 10,
+            "skill": "AIDP-FEEDBACK",
+            "level": "L3",
+            "outcome": "Lập kế hoạch pilot với nhóm dùng thử, cách lấy phản hồi và tiêu chí tiếp tục.",
+            "summary": "Pilot đề xuất kéo dài hai tuần sau khi qua cổng kiểm thử và được chủ quy trình duyệt. Chọn nhóm nhân viên nhỏ, nhóm câu hỏi rõ ràng và thời gian hỗ trợ cụ thể; dùng dữ liệu mô phỏng trong khóa học nếu chưa có quyền truy cập thực tế. Nhân viên duyệt mọi nháp trước khi dùng. Phiếu phản hồi ghi mã tình huống, lỗi, nguồn liên quan, mức ảnh hưởng và cách sửa; không yêu cầu sao chép dữ liệu cá nhân không cần thiết. Phân loại phản hồi thành thiếu nguồn, truy xuất sai, suy luận sai, trải nghiệm và yêu cầu mới. Bài tập: tổ chức phiên thử với ít nhất 3 người đóng vai nhân viên, ghi tối thiểu 10 phản hồi và báo cáo theo KPI. Đạt khi tách được lỗi cần sửa khỏi tính năng ngoài phạm vi và có quyết định tiếp tục hoặc dừng có căn cứ."
+          },
+          {
+            "title": "Ưu tiên backlog và thương lượng thay đổi",
+            "minutes": 10,
+            "skill": "AIDP-FEEDBACK",
+            "level": "L3",
+            "outcome": "Ưu tiên cải tiến và thương lượng phạm vi bằng tác động, công sức và rủi ro.",
+            "summary": "Không biến mọi phản hồi thành tính năng. Với từng đề xuất, ghi mức ảnh hưởng, tần suất, độ chắc chắn của bằng chứng, công sức và rủi ro. Xử lý trước lỗi bảo mật và sai chính sách nghiêm trọng; sau đó cân nhắc cải tiến dựa trên giá trị và nguồn lực. Khi bên nghiệp vụ yêu cầu tự hoàn tiền, giải thích tác động đến quyền hạn, kiểm soát giao dịch và kiểm thử; đề xuất bước nhỏ như chuẩn bị hồ sơ cho người duyệt. Ghi thay đổi đã chốt gồm điều làm, điều hoãn, tiêu chí đạt, người duyệt và mốc dự kiến. Bài tập: ưu tiên 10 phản hồi từ bài trước thành kế hoạch hai vòng cải tiến và diễn tập thương lượng một yêu cầu vượt phạm vi. Đạt khi các quyết định truy được về bằng chứng và không bỏ qua lỗi nghiêm trọng."
+          }
+        ]
+      },
+      {
+        "title": "Chứng minh tác động và bàn giao giải pháp",
+        "lessons": [
+          {
+            "title": "Demo theo câu chuyện nghiệp vụ và bằng chứng",
+            "minutes": 10,
+            "skill": "AIDP-HANDOVER",
+            "level": "L3",
+            "outcome": "Trình bày demo 7 phút gắn vấn đề, giải pháp, kết quả đo và đề xuất tiếp theo.",
+            "summary": "Một demo thuyết phục đi từ vấn đề đến bằng chứng. Dùng cấu trúc: một phút mô tả người dùng và điểm nghẽn; ba phút chạy tình huống thông thường và ngoại lệ; hai phút báo cáo kết quả, chi phí và giới hạn; một phút đề xuất quyết định. Phân biệt số đo đã quan sát với mục tiêu và ước tính. Minh họa cả khi hệ thống không đủ nguồn và cần người xử lý, không chỉ chọn ca đẹp. Bài tập: quay hoặc trình bày demo 7 phút, kèm báo cáo một trang về KPI trước–sau, số mẫu, trường hợp thất bại và chi phí mỗi yêu cầu đạt. Đạt khi người quản lý hiểu giá trị và có đủ thông tin để quyết định sửa tiếp, mở rộng pilot hay dừng."
+          },
+          {
+            "title": "Đồ án cuối khóa và bộ hồ sơ bàn giao",
+            "minutes": 10,
+            "skill": "AIDP-HANDOVER",
+            "level": "L4",
+            "outcome": "Bàn giao MVP có thể chạy lại, bằng chứng đánh giá và hướng dẫn vận hành cho nhóm tiếp nhận.",
+            "summary": "Đồ án gồm tám sản phẩm: bản đề bài và KPI; bảng chi phí; sơ đồ kiến trúc và quyết định build/buy; bộ tri thức mô phỏng có phiên bản; mã nguồn và hướng dẫn chạy; bộ 40 tình huống cùng kết quả; báo cáo phản hồi; sổ tay vận hành có quyền truy cập, cập nhật nguồn, giám sát, xử lý sự cố và quay lui. Người nhận thực hiện chạy lại và một tình huống xử lý sự cố theo hướng dẫn. Rubric đề xuất 100 điểm: xác thực vấn đề 15, giá trị và phép đo 15, tri thức và truy xuất 20, MVP và trải nghiệm 20, đánh giá và bảo vệ 20, bàn giao 10. Hoàn thành khi đạt ít nhất 75 điểm, không nhóm tiêu chí nào dưới một nửa điểm tối đa và không còn lỗi nghiêm trọng về vượt quyền hay lộ dữ liệu trong bộ thử. Nếu chưa đạt, nộp bản sửa kèm bằng chứng kiểm thử lại."
+          }
+        ]
+      }
+    ]
+  },
+  "cohort": {
+    "name": "Lớp AI Deployment Practitioner – CS01 – dự kiến 23/11/2026",
+    "startDate": "2026-11-23"
+  }
+}

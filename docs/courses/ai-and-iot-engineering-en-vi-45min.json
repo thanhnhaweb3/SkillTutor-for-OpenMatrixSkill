@@ -1,0 +1,190 @@
+{
+  "source": "Original OLYM3 bilingual course, version 1.0, 29 October 2026. Structure follows the user-supplied SkillTutor JSON template. References consulted: Microsoft IoT architecture https://learn.microsoft.com/en-us/azure/architecture/guide/iot/iot-get-started and NIST IR 8219 https://csrc.nist.gov/pubs/ir/8219/final (accessed 29 October 2026). Microsoft supports conceptual IoT layering; NIST addresses cybersecurity anomaly detection, not mechanical diagnostic thresholds. Lessons, datasets, rubric and pilot gates are original educational designs, not official provider training or standards. All numerical examples and thresholds are synthetic. / Khóa song ngữ gốc OLYM3, phiên bản 1.0, ngày 29/10/2026. Cấu trúc theo mẫu JSON SkillTutor người dùng cung cấp. Tham khảo kiến trúc IoT Microsoft và NIST IR 8219 tại hai URL ở bản tiếng Anh (truy cập 29/10/2026). Microsoft hỗ trợ khái niệm phân lớp IoT; NIST bàn về phát hiện bất thường an ninh mạng, không phải ngưỡng chẩn đoán cơ khí. Bài học, dữ liệu, rubric và ngưỡng thử nghiệm là thiết kế giáo dục riêng, không phải đào tạo chính thức hoặc tiêu chuẩn của bên tham khảo. Mọi số liệu và ngưỡng minh họa đều mô phỏng.",
+  "framework": {
+    "name": "Applied AI and IoT Engineering Foundations / Nền tảng ứng dụng AI và IoT trong kỹ thuật",
+    "description": "Five competency groups supporting guided engineering analysis and a read-only monitoring proposal; not independent industrial deployment. / Năm nhóm năng lực phục vụ phân tích kỹ thuật có hướng dẫn và đề xuất giám sát chỉ đọc; không nhằm triển khai công nghiệp độc lập.",
+    "proficiencyLevels": [
+      {
+        "code": "L1",
+        "rank": 1,
+        "name": "Recognize / Nhận biết",
+        "description": "Explain core concepts and identify limitations. / Giải thích khái niệm và nhận diện giới hạn."
+      },
+      {
+        "code": "L2",
+        "rank": 2,
+        "name": "Apply with guidance / Áp dụng có hướng dẫn",
+        "description": "Perform a bounded task using supplied data and verify the result. / Thực hiện nhiệm vụ giới hạn bằng dữ liệu cung cấp và kiểm chứng kết quả."
+      }
+    ]
+  },
+  "skills": [
+    {
+      "code": "AIOT-PROBLEM",
+      "name": "Engineering problem framing / Xác định bài toán kỹ thuật",
+      "description": "Apply engineering problem framing to a synthetic engineering case. / Vận dụng xác định bài toán kỹ thuật vào tình huống kỹ thuật mô phỏng.",
+      "outcomes": [
+        "Define a monitored asset, decision and KPI. / Xác định tài sản giám sát, quyết định và KPI."
+      ],
+      "tags": [
+        "engineering / kỹ thuật",
+        "IoT / Internet vạn vật",
+        "AI / trí tuệ nhân tạo"
+      ]
+    },
+    {
+      "code": "AIOT-DATA",
+      "name": "Sensor data literacy / Hiểu dữ liệu cảm biến",
+      "description": "Apply sensor data literacy to a synthetic engineering case. / Vận dụng hiểu dữ liệu cảm biến vào tình huống kỹ thuật mô phỏng.",
+      "outcomes": [
+        "Define a telemetry record with units and context. / Định nghĩa bản ghi đo có đơn vị và bối cảnh.",
+        "Calculate completeness and identify an invalid value. / Tính độ đầy đủ và nhận diện giá trị không hợp lệ."
+      ],
+      "tags": [
+        "engineering / kỹ thuật",
+        "IoT / Internet vạn vật",
+        "AI / trí tuệ nhân tạo"
+      ]
+    },
+    {
+      "code": "AIOT-DESIGN",
+      "name": "IoT architecture / Kiến trúc IoT",
+      "description": "Apply iot architecture to a synthetic engineering case. / Vận dụng kiến trúc iot vào tình huống kỹ thuật mô phỏng.",
+      "outcomes": [
+        "Assign responsibilities across device, edge and application. / Phân công vai trò thiết bị, biên và ứng dụng."
+      ],
+      "tags": [
+        "engineering / kỹ thuật",
+        "IoT / Internet vạn vật",
+        "AI / trí tuệ nhân tạo"
+      ]
+    },
+    {
+      "code": "AIOT-AI",
+      "name": "Evidence-based AI application / Ứng dụng AI có căn cứ",
+      "description": "Apply evidence-based ai application to a synthetic engineering case. / Vận dụng ứng dụng ai có căn cứ vào tình huống kỹ thuật mô phỏng.",
+      "outcomes": [
+        "Apply a teaching rule without inferring a diagnosis. / Áp dụng quy tắc minh họa mà không suy diễn chẩn đoán.",
+        "Write and verify a bilingual evidence-based prompt. / Viết và kiểm chứng prompt song ngữ dựa trên bằng chứng."
+      ],
+      "tags": [
+        "engineering / kỹ thuật",
+        "IoT / Internet vạn vật",
+        "AI / trí tuệ nhân tạo"
+      ]
+    },
+    {
+      "code": "AIOT-EVALUATE",
+      "name": "Evaluation and controlled pilots / Đánh giá và thử nghiệm có kiểm soát",
+      "description": "Apply evaluation and controlled pilots to a synthetic engineering case. / Vận dụng đánh giá và thử nghiệm có kiểm soát vào tình huống kỹ thuật mô phỏng.",
+      "outcomes": [
+        "Calculate precision, recall and a conditional value estimate. / Tính precision, recall và ước tính giá trị có điều kiện.",
+        "Define a pilot with review, freshness and rollback controls. / Xác định thử nghiệm có duyệt, kiểm tra độ mới và phương án quay lại.",
+        "Produce an evidence-based bilingual pilot proposal. / Tạo đề xuất thử nghiệm song ngữ dựa trên bằng chứng."
+      ],
+      "tags": [
+        "engineering / kỹ thuật",
+        "IoT / Internet vạn vật",
+        "AI / trí tuệ nhân tạo"
+      ]
+    }
+  ],
+  "course": {
+    "code": "AI-IOT-ENG-45-ENVI",
+    "title": "AI and IoT applications in the engineering sector / AI và IoT ứng dụng trong ngành kỹ thuật",
+    "description": "Fully bilingual introductory course for engineering students, technicians, engineers and technical managers. Basic familiarity with equipment and arithmetic is helpful; no coding, hardware, paid account or AI experience required. Total 45 minutes: 3 modules × 3 lessons × 5 minutes, including both language versions, exercises and assessment. Lessons 1–8 allocate 2 minutes learning, 2 practice and 1 self-check; lesson 9 allocates 3 minutes assembly and 2 assessment. Learn to frame an engineering use case, define sensor telemetry, map an IoT flow, validate data, distinguish rules from AI, verify a generated brief and evaluate a read-only pilot. Use paper or a spreadsheet; an approved AI tool is optional. All measurements and thresholds are fictional. Completion: bilingual action card scoring at least 9/12 under lesson 9 with required full-score controls. A proposed two-week shadow pilot is follow-up work, not part of the 45 minutes. Cohort date is editable placeholder metadata. / Khóa nhập môn song ngữ đầy đủ dành cho sinh viên kỹ thuật, kỹ thuật viên, kỹ sư và quản lý kỹ thuật. Hiểu cơ bản về thiết bị và tính toán là hữu ích; không cần lập trình, phần cứng, tài khoản trả phí hoặc kinh nghiệm AI. Tổng 45 phút: 3 mô-đun × 3 bài × 5 phút, gồm cả hai ngôn ngữ, bài tập và đánh giá. Bài 1–8 chia 2 phút học, 2 phút thực hành, 1 phút tự kiểm tra; bài 9 chia 3 phút tổng hợp, 2 phút đánh giá. Học xác định bài toán kỹ thuật, định nghĩa dữ liệu cảm biến, mô tả luồng IoT, kiểm tra dữ liệu, phân biệt quy tắc và AI, kiểm chứng ghi chú tạo sinh và đánh giá thử nghiệm chỉ đọc. Dùng giấy hoặc bảng tính; công cụ AI được phép là tùy chọn. Mọi phép đo và ngưỡng đều giả lập. Hoàn thành: thẻ hành động song ngữ đạt ít nhất 9/12 theo bài 9 và điểm tối đa ở các kiểm soát bắt buộc. Thử nghiệm quan sát hai tuần là công việc tiếp theo, ngoài 45 phút. Ngày lớp là thông tin tạm có thể sửa.",
+    "modules": [
+      {
+        "title": "Engineering use cases and IoT foundations / Bài toán kỹ thuật và nền tảng IoT",
+        "lessons": [
+          {
+            "title": "Define an engineering use case / Xác định bài toán kỹ thuật",
+            "minutes": 5,
+            "skill": "AIOT-PROBLEM",
+            "level": "L2",
+            "outcome": "Define a monitored asset, decision and KPI. / Xác định tài sản giám sát, quyết định và KPI.",
+            "summary": "ENGLISH\nTiming: learn 2 min; practice 2 min; self-check 1 min.\nIoT connects physical equipment and makes measurements available to applications. AI analyzes patterns or generates content from supplied evidence. Combining them can support condition monitoring, visual inspection, energy analysis and maintenance planning. A connected sensor alone is not AI; a threshold rule can be useful without machine learning.\nCase: a fictional workshop monitors motor M01. The maintenance lead wants earlier review of unusual vibration while limiting unnecessary inspections. Decision: which flagged windows need technician review? KPI: precision of review flags; guardrails: missed labeled events and review workload. This course designs a read-only monitoring concept, not a machine controller.\nPractice: complete “Monitor ___ using ___ to help ___ decide ___; measure ___.” Example: monitor M01 with vibration and temperature to help a technician prioritize inspection; measure confirmed relevant flags/total flags.\nSelf-check: is “install IoT” a measurable engineering outcome? Answer: no. Define an operational decision and metric first.\n\nTIẾNG VIỆT\nPhân bổ: học 2 phút; thực hành 2 phút; tự kiểm tra 1 phút.\nIoT kết nối thiết bị vật lý và cung cấp phép đo cho ứng dụng. AI phân tích mẫu hình hoặc tạo nội dung từ bằng chứng được cung cấp. Kết hợp hai công nghệ có thể hỗ trợ giám sát tình trạng, kiểm tra hình ảnh, phân tích năng lượng và lập kế hoạch bảo trì. Cảm biến kết nối chưa phải AI; quy tắc ngưỡng vẫn hữu ích mà không cần học máy.\nTình huống: một xưởng giả lập giám sát động cơ M01. Trưởng nhóm bảo trì muốn xem xét rung bất thường sớm hơn nhưng hạn chế kiểm tra không cần thiết. Quyết định: cửa sổ bị gắn cờ nào cần kỹ thuật viên xem xét? KPI: độ chính xác của cờ yêu cầu xem xét; chỉ số bảo vệ: sự kiện có nhãn bị bỏ sót và khối lượng duyệt. Khóa học thiết kế ý tưởng giám sát chỉ đọc, không điều khiển máy.\nThực hành: điền “Giám sát ___ bằng ___ để giúp ___ quyết định ___; đo ___.” Ví dụ: giám sát M01 bằng rung và nhiệt độ để kỹ thuật viên ưu tiên kiểm tra; đo cờ phù hợp được xác nhận/tổng cờ.\nTự kiểm tra: “Lắp IoT” có phải kết quả kỹ thuật đo được? Đáp án: không. Trước tiên xác định quyết định vận hành và chỉ số."
+          },
+          {
+            "title": "Specify sensors and telemetry / Đặc tả cảm biến và dữ liệu đo",
+            "minutes": 5,
+            "skill": "AIOT-DATA",
+            "level": "L2",
+            "outcome": "Define a telemetry record with units and context. / Định nghĩa bản ghi đo có đơn vị và bối cảnh.",
+            "summary": "ENGLISH\nTiming: learn 2 min; practice 2 min; self-check 1 min.\nA measurement needs an asset identifier, timestamp, unit, acquisition method and operating context. A temperature sensor and a vibration sensor measure different phenomena. Sensor position, calibration, load and speed influence interpretation. A single high temperature cannot establish a bearing fault.\nTeaching record: asset_id=M01; window_end=2026-10-29T08:00:00Z; window_seconds=60; temperature_C=62; vibration_rms_mm_s=2.1; load_pct=70; quality=valid. This represents one summary window, not one raw waveform sample. In this exercise, vibration RMS is a supplied feature; its measurement settings are assumed consistent. Real acquisition bandwidth, filtering and sampling must be selected by qualified engineers for the asset and diagnostic purpose; a once-per-minute summary does not specify the raw sample rate.\nPractice: write a data dictionary for four fields, with type, unit and meaning. Self-check: can 2.1 mm/s and 2.1 g be directly compared? Answer: no; they represent different physical quantities. Check units and measurement definitions before analysis.\n\nTIẾNG VIỆT\nPhân bổ: học 2 phút; thực hành 2 phút; tự kiểm tra 1 phút.\nPhép đo cần mã thiết bị, dấu thời gian, đơn vị, phương pháp thu thập và bối cảnh vận hành. Cảm biến nhiệt và cảm biến rung đo các hiện tượng khác nhau. Vị trí cảm biến, hiệu chuẩn, tải và tốc độ ảnh hưởng cách diễn giải. Một giá trị nhiệt cao không đủ kết luận lỗi ổ bi.\nBản ghi giảng dạy: asset_id=M01; window_end=2026-10-29T08:00:00Z; window_seconds=60; temperature_C=62; vibration_rms_mm_s=2,1; load_pct=70; quality=valid. Đây là một cửa sổ tổng hợp, không phải một mẫu dạng sóng thô. Trong bài, RMS rung là đặc trưng được cung cấp; giả định cấu hình đo nhất quán. Băng thông thu thập, lọc và tần số lấy mẫu thực tế phải do kỹ sư đủ chuyên môn chọn theo thiết bị và mục tiêu chẩn đoán; bản tổng hợp mỗi phút không xác định tần số lấy mẫu thô.\nThực hành: viết từ điển dữ liệu cho bốn trường, gồm kiểu, đơn vị và ý nghĩa. Tự kiểm tra: có thể so sánh trực tiếp 2,1 mm/s và 2,1 g không? Đáp án: không; đó là các đại lượng vật lý khác nhau. Kiểm tra đơn vị và định nghĩa phép đo trước khi phân tích."
+          },
+          {
+            "title": "Map the IoT data flow / Mô tả luồng dữ liệu IoT",
+            "minutes": 5,
+            "skill": "AIOT-DESIGN",
+            "level": "L2",
+            "outcome": "Assign responsibilities across device, edge and application. / Phân công vai trò thiết bị, biên và ứng dụng.",
+            "summary": "ENGLISH\nTiming: learn 2 min; practice 2 min; self-check 1 min.\nA conceptual path is sensor → approved acquisition device → edge gateway → ingestion and storage → analytics → dashboard → technician review. A gateway can buffer data, translate interfaces and run local processing. Cloud processing can aggregate multiple assets; local processing can support operation when upstream connectivity is interrupted. This is a vendor-neutral teaching design, not a deployment specification.\nSeparate measurement time from arrival time. During a network outage, the gateway stores records within its capacity and marks delayed delivery. The dashboard shows last measurement time and freshness; an old green status must not look current. Device authentication, authorized access and protected transport belong to the design. A read-only pilot has no path for AI to write machine commands.\nPractice: label where data are collected, buffered, stored, analyzed and reviewed. Add one response to lost connectivity. Self-check: does “cloud offline” necessarily mean a motor is faulty? Answer: no; distinguish connectivity status from equipment condition.\n\nTIẾNG VIỆT\nPhân bổ: học 2 phút; thực hành 2 phút; tự kiểm tra 1 phút.\nLuồng khái niệm: cảm biến → bộ thu thập được duyệt → gateway biên → tiếp nhận và lưu trữ → phân tích → bảng theo dõi → kỹ thuật viên xem xét. Gateway có thể đệm dữ liệu, chuyển đổi giao tiếp và xử lý tại chỗ. Xử lý đám mây có thể tổng hợp nhiều thiết bị; xử lý cục bộ có thể hỗ trợ khi kết nối phía trên gián đoạn. Đây là thiết kế giảng dạy trung lập nhà cung cấp, không phải đặc tả triển khai.\nTách thời điểm đo khỏi thời điểm nhận. Khi mất mạng, gateway lưu bản ghi trong giới hạn dung lượng và đánh dấu việc gửi trễ. Bảng theo dõi hiển thị thời điểm đo cuối và độ mới dữ liệu; trạng thái xanh cũ không được trông như hiện tại. Thiết kế cần xác thực thiết bị, truy cập được cấp quyền và bảo vệ đường truyền. Thử nghiệm chỉ đọc không có đường cho AI ghi lệnh điều khiển máy.\nThực hành: ghi nơi thu thập, đệm, lưu trữ, phân tích và duyệt dữ liệu. Thêm một cách xử lý mất kết nối. Tự kiểm tra: “Đám mây mất kết nối” có nhất thiết nghĩa là động cơ hỏng? Đáp án: không; phân biệt trạng thái kết nối với tình trạng thiết bị."
+          }
+        ]
+      },
+      {
+        "title": "Sensor analytics and practical AI / Phân tích cảm biến và thực hành AI",
+        "lessons": [
+          {
+            "title": "Validate a sensor dataset / Kiểm tra bộ dữ liệu cảm biến",
+            "minutes": 5,
+            "skill": "AIOT-DATA",
+            "level": "L2",
+            "outcome": "Calculate completeness and identify an invalid value. / Tính độ đầy đủ và nhận diện giá trị không hợp lệ.",
+            "summary": "ENGLISH\nTiming: learn 2 min; practice 2 min; self-check 1 min.\nSynthetic data: six expected one-minute windows for M01 at 70% load, all with quality=valid except where noted. At 08:00Z: 62°C, 2.1 mm/s; 08:01Z: 63°C, 2.2; 08:02Z: 64°C, 2.4; 08:03Z: missing record; 08:04Z: 65°C, 4.8; 08:05Z: 66°C, 5.0. RMS features have matching measurement settings. Observed completeness = 5/6 × 100 = 83.33%. Mean observed RMS = (2.1+2.2+2.4+4.8+5.0)/5 = 3.3 mm/s; it is not the mean of all six windows.\nCheck missing windows, duplicates, clock alignment, units, sensor quality and operating mode. Missing vibration is unknown, not zero. A second copy of the same asset/window should be resolved rather than counted twice. An implausible reading should be flagged for investigation rather than silently corrected.\nPractice: calculate completeness and name two checks. Self-check: may the missing window be labeled normal? Answer: no; preserve its missing status. Five observed windows cannot establish a machine health baseline.\n\nTIẾNG VIỆT\nPhân bổ: học 2 phút; thực hành 2 phút; tự kiểm tra 1 phút.\nDữ liệu mô phỏng: dự kiến sáu cửa sổ một phút cho M01 ở tải 70%, tất cả quality=valid trừ trường hợp được nêu. Lúc 08:00Z: 62°C, 2,1 mm/s; 08:01Z: 63°C, 2,2; 08:02Z: 64°C, 2,4; 08:03Z: thiếu bản ghi; 08:04Z: 65°C, 4,8; 08:05Z: 66°C, 5,0. Đặc trưng RMS dùng cùng cấu hình đo. Độ đầy đủ quan sát = 5/6 × 100 = 83,33%. RMS trung bình quan sát = (2,1+2,2+2,4+4,8+5,0)/5 = 3,3 mm/s; đây không phải trung bình đủ sáu cửa sổ.\nKiểm tra cửa sổ thiếu, trùng lặp, đồng bộ đồng hồ, đơn vị, chất lượng cảm biến và chế độ vận hành. Thiếu dữ liệu rung là chưa biết, không phải bằng 0. Bản sao cùng thiết bị/cửa sổ cần xử lý thay vì đếm hai lần. Giá trị bất hợp lý cần gắn cờ điều tra thay vì âm thầm sửa.\nThực hành: tính độ đầy đủ và nêu hai kiểm tra. Tự kiểm tra: có thể gán cửa sổ thiếu là bình thường? Đáp án: không; giữ trạng thái thiếu. Năm cửa sổ quan sát chưa đủ xác lập đường cơ sở sức khỏe máy."
+          },
+          {
+            "title": "Distinguish rules, anomalies and predictions / Phân biệt quy tắc, bất thường và dự đoán",
+            "minutes": 5,
+            "skill": "AIOT-AI",
+            "level": "L2",
+            "outcome": "Apply a teaching rule without inferring a diagnosis. / Áp dụng quy tắc minh họa mà không suy diễn chẩn đoán.",
+            "summary": "ENGLISH\nTiming: learn 2 min; practice 2 min; self-check 1 min.\nFor this dataset only, use a fictional review rule: flag a valid window when vibration RMS is greater than 4.0 mm/s. This number is an arbitrary exercise value, not a standard, operating limit or safety threshold. From lesson 4, flag 08:04Z and 08:05Z; mark 08:03Z as unknown. A threshold flag requests review; it does not diagnose a fault or order shutdown.\nAn anomaly model detects patterns that differ from learned reference behavior. Predictive maintenance additionally needs evidence linking patterns to maintenance outcomes and a useful forecast horizon. Supervised models need suitable labels; unlabeled anomaly scores still require expert interpretation. Train on earlier data, validate on later held-out periods and avoid overlapping-window leakage. Compare models against the simple rule under similar operating conditions. Changes in load, sensor mounting or machine configuration can shift the baseline.\nPractice: list flagged, unflagged and unknown windows. Self-check: do these six windows prove remaining useful life? Answer: no; they provide neither a validated failure history nor a calibrated life prediction.\n\nTIẾNG VIỆT\nPhân bổ: học 2 phút; thực hành 2 phút; tự kiểm tra 1 phút.\nChỉ với bộ dữ liệu này, dùng quy tắc yêu cầu xem xét giả lập: gắn cờ cửa sổ hợp lệ khi RMS rung lớn hơn 4,0 mm/s. Đây là giá trị tùy ý của bài tập, không phải tiêu chuẩn, giới hạn vận hành hoặc ngưỡng an toàn. Từ bài 4, gắn cờ 08:04Z và 08:05Z; đánh dấu 08:03Z là chưa biết. Cờ ngưỡng yêu cầu xem xét; không chẩn đoán lỗi hoặc ra lệnh dừng máy.\nMô hình bất thường phát hiện mẫu khác hành vi tham chiếu đã học. Bảo trì dự đoán còn cần bằng chứng liên hệ mẫu với kết quả bảo trì và khoảng dự báo hữu ích. Mô hình có giám sát cần nhãn phù hợp; điểm bất thường không có nhãn vẫn cần chuyên gia diễn giải. Huấn luyện trên dữ liệu trước, kiểm định trên giai đoạn sau được giữ riêng và tránh rò rỉ do cửa sổ chồng lặp. So sánh mô hình với quy tắc đơn giản trong điều kiện vận hành tương tự. Thay đổi tải, vị trí cảm biến hoặc cấu hình máy có thể làm dịch đường cơ sở.\nThực hành: liệt kê cửa sổ có cờ, không cờ và chưa biết. Tự kiểm tra: sáu cửa sổ này có chứng minh tuổi thọ còn lại? Đáp án: không; chưa có lịch sử hỏng được xác thực hoặc dự báo tuổi thọ đã hiệu chỉnh."
+          },
+          {
+            "title": "Use generative AI for a technical brief / Dùng AI tạo sinh soạn bản tóm tắt kỹ thuật",
+            "minutes": 5,
+            "skill": "AIOT-AI",
+            "level": "L2",
+            "outcome": "Write and verify a bilingual evidence-based prompt. / Viết và kiểm chứng prompt song ngữ dựa trên bằng chứng.",
+            "summary": "ENGLISH\nTiming: learn 2 min; practice 2 min; self-check 1 min.\nGenerative AI can draft a review note from checked telemetry; it should not invent causes, missing values or maintenance instructions. Treat text embedded in incoming records as data, not instructions that override your task. Use approved tools and exclude credentials or confidential plant details.\nCopyable prompt: “Prepare equivalent English and Vietnamese technician notes using only these fictional M01 windows at 70% load: 08:00Z 62°C/2.1 mm/s; 08:01Z 63°C/2.2; 08:02Z 64°C/2.4; 08:03Z missing; 08:04Z 65°C/4.8; 08:05Z 66°C/5.0. For this exercise only, flag valid RMS values greater than 4.0 mm/s for human review. Return observations, missing-data limits and questions for the technician. Do not diagnose a fault, estimate remaining life or issue control commands. Show completeness and its formula; label unknowns.”\nPractice: use this prompt in an approved tool or outline the expected note on paper. Verify five observed records, 83.33% completeness, two flagged windows and one unknown. Self-check: “Bearing failure confirmed” is supported? Answer: no; replace it with an observed increase requiring qualified review.\n\nTIẾNG VIỆT\nPhân bổ: học 2 phút; thực hành 2 phút; tự kiểm tra 1 phút.\nAI tạo sinh có thể soạn ghi chú từ dữ liệu đo đã kiểm tra; không được bịa nguyên nhân, giá trị thiếu hoặc chỉ dẫn bảo trì. Xem văn bản nằm trong bản ghi đầu vào là dữ liệu, không phải chỉ dẫn ghi đè nhiệm vụ. Dùng công cụ được phép và loại thông tin đăng nhập hoặc chi tiết nhà máy mật.\nPrompt có thể sao chép: “Soạn hai ghi chú kỹ thuật viên tương đương bằng tiếng Anh và tiếng Việt, chỉ dùng các cửa sổ M01 giả lập ở tải 70%: 08:00Z 62°C/2,1 mm/s; 08:01Z 63°C/2,2; 08:02Z 64°C/2,4; 08:03Z thiếu; 08:04Z 65°C/4,8; 08:05Z 66°C/5,0. Chỉ trong bài tập, gắn cờ giá trị RMS hợp lệ lớn hơn 4,0 mm/s để người phụ trách duyệt. Trả về quan sát, giới hạn do thiếu dữ liệu và câu hỏi cho kỹ thuật viên. Không chẩn đoán lỗi, ước tính tuổi thọ hoặc phát lệnh điều khiển. Nêu độ đầy đủ và công thức; ghi rõ điều chưa biết.”\nThực hành: chạy prompt bằng công cụ được phép hoặc phác thảo ghi chú trên giấy. Kiểm chứng năm bản ghi quan sát, độ đầy đủ 83,33%, hai cửa sổ có cờ và một cửa sổ chưa biết. Tự kiểm tra: “Đã xác nhận hỏng ổ bi” có căn cứ? Đáp án: không; thay bằng ghi nhận rung tăng cần người đủ chuyên môn xem xét."
+          }
+        ]
+      },
+      {
+        "title": "Evaluation and engineering action plan / Đánh giá và kế hoạch hành động kỹ thuật",
+        "lessons": [
+          {
+            "title": "Evaluate alerts and engineering value / Đánh giá cảnh báo và giá trị kỹ thuật",
+            "minutes": 5,
+            "skill": "AIOT-EVALUATE",
+            "level": "L2",
+            "outcome": "Calculate precision, recall and a conditional value estimate. / Tính precision, recall và ước tính giá trị có điều kiện.",
+            "summary": "ENGLISH\nTiming: learn 2 min; practice 2 min; self-check 1 min.\nA separate synthetic labeled evaluation has 20 non-overlapping windows: 8 flagged windows include 6 true events and 2 false alarms; among 12 unflagged windows, 3 events are missed and 9 are true negatives. Event labels are assumed independently reviewed. Precision = 6/(6+2) = 75%; recall = 6/(6+3) = 66.67%. This set is separate from lesson 4. A highly accurate-looking system may still miss important events; assess missed events, false alarms, review workload and detection delay. Window-level scores do not automatically equal fault-event-level performance.\nIllustrative monthly assumptions: 2 hours of avoidable downtime × VND 1,000,000/hour = VND 2,000,000 gross potential value; monitoring plus review cost VND 800,000/month; net potential value VND 1,200,000/month. Setup VND 6,000,000 gives simple payback of 5 months only if these assumptions hold. If no downtime is avoided, net value is −VND 800,000/month. These are not demonstrated savings.\nPractice: recompute precision and recall; name one omitted cost to investigate. Self-check: is a false alarm the same as a missed event? Answer: no; they have different operational consequences.\n\nTIẾNG VIỆT\nPhân bổ: học 2 phút; thực hành 2 phút; tự kiểm tra 1 phút.\nBộ đánh giá có nhãn mô phỏng riêng gồm 20 cửa sổ không chồng lặp: 8 cửa sổ có cờ gồm 6 sự kiện đúng và 2 báo giả; trong 12 cửa sổ không cờ có 3 sự kiện bị bỏ sót và 9 trường hợp âm đúng. Giả định nhãn sự kiện đã được duyệt độc lập. Precision = 6/(6+2) = 75%; recall = 6/(6+3) = 66,67%. Bộ này tách biệt bài 4. Hệ thống có độ chính xác tổng thể trông cao vẫn có thể bỏ sót sự kiện quan trọng; đánh giá sự kiện bỏ sót, báo giả, khối lượng duyệt và độ trễ phát hiện. Điểm theo cửa sổ không tự tương đương hiệu quả theo sự kiện lỗi.\nGiả định tháng minh họa: tránh 2 giờ dừng máy × 1.000.000 VND/giờ = 2.000.000 VND giá trị tiềm năng gộp; giám sát và duyệt tốn 800.000 VND/tháng; giá trị ròng tiềm năng 1.200.000 VND/tháng. Thiết lập 6.000.000 VND cho hoàn vốn đơn giản 5 tháng chỉ khi giả định đúng. Nếu không tránh được giờ dừng nào, giá trị ròng là −800.000 VND/tháng. Đây chưa phải tiết kiệm đã chứng minh.\nThực hành: tính lại precision và recall; nêu một chi phí chưa tính cần khảo sát. Tự kiểm tra: báo giả có giống sự kiện bỏ sót? Đáp án: không; chúng có hệ quả vận hành khác nhau."
+          },
+          {
+            "title": "Plan a read-only pilot / Lập thử nghiệm giám sát chỉ đọc",
+            "minutes": 5,
+            "skill": "AIOT-EVALUATE",
+            "level": "L2",
+            "outcome": "Define a pilot with review, freshness and rollback controls. / Xác định thử nghiệm có duyệt, kiểm tra độ mới và phương án quay lại.",
+            "summary": "ENGLISH\nTiming: learn 2 min; practice 2 min; self-check 1 min.\nPropose a two-week shadow pilot after this course. First replay historical data in an isolated environment; any live collection requires site authorization and an approved read-only interface. Owner: maintenance lead; technical reviewer: designated engineer. The pilot observes M01 and records flags without changing existing protection or operating procedures.\nProposed teaching gates: at least 95% data completeness during agreed running windows; every displayed status shows freshness; stale or missing data are marked unknown; every flag receives a recorded review within the team's agreed service window. Report precision, recall where labels exist, review time and costs; do not adopt the small lesson-7 score as a production target. Engineering acceptance thresholds require local risk assessment and enough representative data.\nUse device identities, least-privilege access, approved network separation and protected communications. Keep secrets out of prompts. Pause the pilot on unauthorized access, unexpected control traffic or misleading stale status. Disable the new monitoring path and return to the approved existing process while investigating. It is not a safety system.\nPractice: write owner, scope, data gate, review process and pause rule. Self-check: should an AI alert bypass an existing interlock? Answer: no; the pilot has no command authority.\n\nTIẾNG VIỆT\nPhân bổ: học 2 phút; thực hành 2 phút; tự kiểm tra 1 phút.\nĐề xuất thử nghiệm quan sát song song hai tuần sau khóa học. Trước tiên phát lại dữ liệu lịch sử trong môi trường tách biệt; thu thập trực tiếp cần đơn vị cho phép và giao diện chỉ đọc được duyệt. Chủ trì: trưởng nhóm bảo trì; người duyệt kỹ thuật: kỹ sư được chỉ định. Thử nghiệm quan sát M01 và ghi cờ, không thay đổi bảo vệ hoặc quy trình vận hành hiện hữu.\nNgưỡng giảng dạy đề xuất: dữ liệu đầy đủ ít nhất 95% trong cửa sổ chạy đã thống nhất; mọi trạng thái hiển thị có độ mới; dữ liệu cũ hoặc thiếu được đánh dấu chưa biết; mọi cờ có ghi nhận duyệt trong thời hạn nhóm thống nhất. Báo cáo precision, recall khi có nhãn, thời gian duyệt và chi phí; không lấy điểm bộ nhỏ bài 7 làm mục tiêu sản xuất. Ngưỡng nghiệm thu kỹ thuật cần đánh giá rủi ro tại chỗ và đủ dữ liệu đại diện.\nDùng định danh thiết bị, quyền tối thiểu, phân tách mạng được duyệt và truyền thông được bảo vệ. Không đưa bí mật vào prompt. Tạm dừng khi truy cập trái phép, có luồng điều khiển ngoài dự kiến hoặc trạng thái cũ gây hiểu nhầm. Vô hiệu hóa đường giám sát mới và quay lại quy trình hiện hữu đã duyệt trong khi điều tra. Đây không phải hệ thống an toàn.\nThực hành: viết người chủ trì, phạm vi, ngưỡng dữ liệu, quy trình duyệt và điều kiện tạm dừng. Tự kiểm tra: cảnh báo AI có nên vượt liên động hiện hữu? Đáp án: không; thử nghiệm không có quyền phát lệnh."
+          },
+          {
+            "title": "Submit a bilingual engineering action card / Nộp thẻ hành động kỹ thuật song ngữ",
+            "minutes": 5,
+            "skill": "AIOT-EVALUATE",
+            "level": "L2",
+            "outcome": "Produce an evidence-based bilingual pilot proposal. / Tạo đề xuất thử nghiệm song ngữ dựa trên bằng chứng.",
+            "summary": "ENGLISH\nTiming: assemble 3 minutes; assess 2 minutes. Reuse prior exercises to produce equivalent English and Vietnamese cards with six items: (1) asset, decision and owner; (2) sensor fields, units and data quality; (3) read-only data flow and stale-data handling; (4) rule versus AI role and verified observations; (5) evaluation metrics and conditional costs/value; (6) human review, pilot gates and pause/rollback rule.\nReference: M01 at 70% load; five of six expected summary windows observed, completeness 83.33%; two valid windows exceed the fictional 4.0 mm/s review rule. Missing is unknown. No diagnosis or life estimate is supported. Data move through an approved read-only collection path to a dashboard with freshness. A technician verifies flags; generative AI only drafts notes. The separate 20-window evaluation gives precision 75% and recall 66.67%. Proposed two-week shadow pilot uses site-approved controls and records quality, workload and cost; prospective net value VND 1,200,000/month depends on avoided-downtime assumptions. Stop on unauthorized activity or misleading status.\nRubric: six items, each 0 absent/incorrect, 1 partial, 2 complete and consistent. Pass at 9/12 or higher, with 2/2 on data flow/stale handling and 2/2 on review/pause controls, plus both languages. Revise missing criteria. Instructor or learner scores manually; this JSON does not implement automatic grading or certification. The two-week pilot is outside today's 45 minutes.\n\nTIẾNG VIỆT\nPhân bổ: tổng hợp 3 phút; đánh giá 2 phút. Dùng lại bài tập để tạo hai thẻ tiếng Anh và tiếng Việt tương đương với sáu mục: (1) thiết bị, quyết định, người phụ trách; (2) trường cảm biến, đơn vị, chất lượng dữ liệu; (3) luồng chỉ đọc và xử lý dữ liệu cũ; (4) vai trò quy tắc so với AI và quan sát đã kiểm tra; (5) chỉ số đánh giá cùng chi phí/giá trị có điều kiện; (6) người duyệt, ngưỡng thử nghiệm và điều kiện tạm dừng/quay lại.\nTham chiếu: M01 tải 70%; quan sát được năm trong sáu cửa sổ tổng hợp dự kiến, độ đầy đủ 83,33%; hai cửa sổ hợp lệ vượt quy tắc xem xét 4,0 mm/s giả lập. Thiếu là chưa biết. Chưa có căn cứ chẩn đoán hoặc ước tính tuổi thọ. Dữ liệu đi qua đường thu thập chỉ đọc được duyệt đến bảng theo dõi có độ mới. Kỹ thuật viên xác minh cờ; AI tạo sinh chỉ soạn ghi chú. Bộ đánh giá riêng 20 cửa sổ có precision 75% và recall 66,67%. Đề xuất thử nghiệm quan sát hai tuần dùng kiểm soát được đơn vị duyệt, ghi chất lượng, khối lượng duyệt và chi phí; giá trị ròng dự kiến 1.200.000 VND/tháng phụ thuộc giả định tránh dừng máy. Dừng khi có hoạt động trái phép hoặc trạng thái gây hiểu nhầm.\nRubric: sáu mục, mỗi mục 0 nếu thiếu/sai, 1 nếu chưa đủ, 2 nếu đầy đủ và nhất quán. Đạt từ 9/12, đồng thời mục luồng dữ liệu/xử lý dữ liệu cũ đạt 2/2 và mục duyệt/kiểm soát tạm dừng đạt 2/2, có đủ hai ngôn ngữ. Sửa tiêu chí thiếu. Giảng viên hoặc người học chấm thủ công; JSON không triển khai chấm tự động hoặc chứng nhận. Thử nghiệm hai tuần nằm ngoài 45 phút hôm nay."
+          }
+        ]
+      }
+    ]
+  },
+  "cohort": {
+    "name": "AI and IoT Engineering — schedule to be confirmed / AI và IoT trong kỹ thuật — lịch học cần xác nhận",
+    "startDate": "2026-10-29"
+  }
+}
